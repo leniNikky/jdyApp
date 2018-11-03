@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<div component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window c3yyAJv" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="c3yyAJv" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/controlGroup/controlGroup,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+  <style>null</style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onParamsReceive:modelParamsReceive" __cid="c3yyAJv" class="c3yyAJv"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcamEJzu-iosstatusbar c3yyAJv" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c3yyAJv"> 
+    <div class="x-panel-top c3yyAJv" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c3yyAJv"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar c3yyAJv" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&#34;title&#34;:&#34;装备租赁&#34;}" __cid="c3yyAJv"> 
+        <div class="x-titlebar-left c3yyAJv" __cid="c3yyAJv"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon c3yyAJv" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&#34;icon&#34;:&#34;icon-chevron-left&#34;,&#34;label&#34;:&#34;&#34;}" __cid="c3yyAJv"> 
+            <i class="icon-chevron-left c3yyAJv" __cid="c3yyAJv"></i>  
+            <span __cid="c3yyAJv" class="c3yyAJv"></span> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title c3yyAJv" __cid="c3yyAJv">装备租赁</div>  
+        <div class="x-titlebar-right  c3yyAJv" __cid="c3yyAJv">
+          <div class="empty c3yyAJv" __cid="c3yyAJv"></div>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content c3yyAJv" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c3yyAJv">
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list c3yyAJv" xid="list2" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&#34;data&#34;:&#34;zbData1&#34;}" __cid="c3yyAJv"> 
+        <ul class="x-list-template hide c3yyAJv" xid="listTemplateUl2" __cid="c3yyAJv" data-bind="foreach:{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}"> 
+          <li xid="li2" __cid="c3yyAJv" class="c3yyAJv"> 
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row c3yyAJv" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c3yyAJv"> 
+              <div class="x-col c3yyAJv" xid="col1" __cid="c3yyAJv"> 
+                <img src="" alt="" xid="image1" style="width:100%;" __cid="c3yyAJv" class="c3yyAJv" data-bind="attr:{src:$model.zbData1.val(&#34;zbImage&#34;)}">  
+                <div component="$model/UI2/system/components/justep/controlGroup/controlGroup" class="x-control-group c3yyAJv" xid="controlGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/controlGroup/controlGroup'}" data-config="{&#34;title&#34;:&#34;&#34;}" __cid="c3yyAJv"> 
+                  <div class="x-control-group-title c3yyAJv" xid="controlGroupTitle1" style="background-color:#FFFFFF;" __cid="c3yyAJv"> 
+                    <span xid="span1" style="font-size:18px;" __cid="c3yyAJv" class="c3yyAJv" data-bind="text:$model.zbData1.val(&#34;zbName&#34;)"></span>  
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output c3yyAJv" xid="output4" style="padding-left:15px;" data-bind="component:{ref:$model.zbData1.ref(&#34;zbIntroduce&#34;),name:'$model/UI2/system/components/justep/output/output'}" __cid="c3yyAJv"></div>
+                  </div> 
+                </div> 
+              </div> 
+            </div> 
+          </li> 
+        </ul> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/controlGroup/controlGroup" class="x-control-group c3yyAJv" xid="controlGroup4" style="margin-bottom: 20px;" data-bind="component:{name:'$model/UI2/system/components/justep/controlGroup/controlGroup'}" __cid="c3yyAJv"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-success center-block c3yyAJv" xid="enrollBtn" style="margin-top:20px;font-weight:bold;font-size:16px;background-color:#0080C0;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" __cid="c3yyAJv"> 
+          <i xid="i1" __cid="c3yyAJv" class="c3yyAJv"></i>  
+          <span xid="span5" __cid="c3yyAJv" class="c3yyAJv">立即报名</span>
+        </a> 
+      </div>
+    </div>  
+    <style __cid="c3yyAJv" class="c3yyAJv">.x-panel.pcamEJzu-iosstatusbar >.x-panel-top {height: 48px;}.x-panel.pcamEJzu-iosstatusbar >.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcamEJzu-iosstatusbar >.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcamEJzu-iosstatusbar >.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcamEJzu-iosstatusbar >.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcamEJzu-iosstatusbar >.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcamEJzu-iosstatusbar >.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcamEJzu-iosstatusbar >.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcamEJzu-iosstatusbar >.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

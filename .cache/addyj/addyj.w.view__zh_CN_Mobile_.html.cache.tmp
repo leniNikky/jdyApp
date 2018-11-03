@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window c3yauqy" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="c3yauqy" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">.tb-trans.c3yauqy .x-panel-top.c3yauqy{z-index: 100} .tb-trans.c3yauqy .x-panel-top.c3yauqy .x-titlebar.c3yauqy{background: none} .tb-trans.c3yauqy .x-panel-content.c3yauqy{top: 0 !important} .tb-trans.x-panel.c3yauqy .no-iosstatusbar.c3yauqy &gt; .x-panel-content.c3yauqy{top: -20px !important} .tb-box.c3yauqy .tb-backBtn.c3yauqy, .tb-box.c3yauqy .tb-cartBtn.c3yauqy, .tb-box.c3yauqy .tb-moreBtn.c3yauqy{width: 40px; height: 40px; border-radius: 65px; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0.4)} .tb-cartBtn.c3yauqy{margin-top: -7px} .x-popOver-overlay.c3yauqy{background-color: rgb(0, 0, 0)}</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="c3yauqy" class="c3yauqy"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcRfq2yi-iosstatusbar c3yauqy" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c3yauqy"> 
+    <div class="x-panel-top c3yauqy" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c3yauqy"> 
+      <div class="x-panel-top c3yauqy" xid="div1" __cid="c3yauqy"> 
+        <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar tb-box c3yauqy" xid="titleBar" style="background-color:transparent;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="c3yauqy"> 
+          <div class="x-titlebar-left c3yauqy" xid="left1" __cid="c3yauqy"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon tb-backBtn c3yauqy" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:backBtnClick" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;}" __cid="c3yauqy"> 
+              <i xid="i6" class="icon-chevron-left c3yauqy" __cid="c3yauqy"/>  
+              <span xid="span6" __cid="c3yauqy" class="c3yauqy">关闭</span> 
+            </a> 
+          </div>  
+          <div class="x-titlebar-title c3yauqy" xid="title1" style="color:#000000;" __cid="c3yauqy">发表游记</div>  
+          <div class="x-titlebar-right  c3yauqy" xid="right1" __cid="c3yauqy"> 
+            <div class="empty c3yauqy" __cid="c3yauqy"/> 
+          </div> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content c3yauqy" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c3yauqy"> 
+      <div xid="div2" __cid="c3yauqy" class="c3yauqy"> 
+        <p xid="p1" __cid="c3yauqy" class="c3yauqy">游记标题</p> 
+      </div> 
+    </div>  
+    <div class="x-panel-bottom c3yauqy" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c3yauqy"/>  
+    <style __cid="c3yauqy" class="c3yauqy">.x-panel.pcRfq2yi-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcRfq2yi-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcRfq2yi-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcRfq2yi-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcRfq2yi-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcRfq2yi-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcRfq2yi-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcRfq2yi-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcRfq2yi-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

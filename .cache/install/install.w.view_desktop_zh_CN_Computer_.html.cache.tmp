@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cyeE3ya" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cyeE3ya" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/windowReceiver/windowReceiver,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cyeE3ya" class="cyeE3ya"/>  
+  <span xmlns="" component="$model/UI2/system/components/justep/windowReceiver/windowReceiver" xid="windowReceiver2" style="top:9px;left:220px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowReceiver/windowReceiver'}" __cid="cyeE3ya" class="cyeE3ya"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cyeE3ya" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cyeE3ya"> 
+    <div class="x-titlebar-left cyeE3ya" xid="left1" __cid="cyeE3ya"> 
+      <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cyeE3ya" xid="button1" style="background-color:#2fa4e7" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button1Click" data-config="{&quot;icon&quot;:&quot;linear linear-chevronleft&quot;,&quot;label&quot;:&quot;设置&quot;}" __cid="cyeE3ya"> 
+        <i xid="i1" class="linear linear-chevronleft cyeE3ya" __cid="cyeE3ya"/>  
+        <span xid="span1" __cid="cyeE3ya" class="cyeE3ya">设置</span> 
+      </a> 
+    </div>  
+    <div class="x-titlebar-title cyeE3ya" xid="title1" __cid="cyeE3ya"/>  
+    <div class="x-titlebar-right  cyeE3ya" xid="right1" __cid="cyeE3ya"> 
+      <div class="empty cyeE3ya" __cid="cyeE3ya"/> 
+    </div> 
+  </div>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="panel panel-default x-card pcfeyQfu-iosstatusbar cyeE3ya" xid="panel2" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cyeE3ya"> 
+    <ul xid="ul1" style="margin-top:0px;" __cid="cyeE3ya" class="cyeE3ya"> 
+      <li class="list-group-item cyeE3ya" xid="li1" __cid="cyeE3ya"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon pull-right cyeE3ya" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button2Click" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cyeE3ya"> 
+          <i xid="i2" class="icon-ios7-arrow-right text-muted cyeE3ya" __cid="cyeE3ya"/>  
+          <span xid="span2" __cid="cyeE3ya" class="cyeE3ya"/> 
+        </a>  
+        <span xid="span3" __cid="cyeE3ya" class="cyeE3ya">更换头像</span> 
+      </li>  
+      <li class="list-group-item cyeE3ya" xid="li11" __cid="cyeE3ya"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon pull-right cyeE3ya" xid="button14" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button14Click" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cyeE3ya"> 
+          <i xid="i27" class="icon-ios7-arrow-right text-muted cyeE3ya" __cid="cyeE3ya"/>  
+          <span xid="span20" __cid="cyeE3ya" class="cyeE3ya"/> 
+        </a>  
+        <span xid="span19" __cid="cyeE3ya" class="cyeE3ya">修改个人信息</span> 
+      </li>  
+      <li class="list-group-item cyeE3ya" xid="li10" __cid="cyeE3ya"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon pull-right cyeE3ya" xid="button12" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button12Click" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cyeE3ya"> 
+          <i xid="i18" class="icon-ios7-arrow-right text-muted cyeE3ya" __cid="cyeE3ya"/>  
+          <span xid="span17" __cid="cyeE3ya" class="cyeE3ya"/> 
+        </a>  
+        <span xid="span16" __cid="cyeE3ya" class="cyeE3ya">修改密码</span> 
+      </li>  
+      <li class="list-group-item cyeE3ya" xid="li2" __cid="cyeE3ya" data-bind="event:{click:$model._callModelFn.bind($model, 'li2Click')}"> 
+        <span xid="span5" __cid="cyeE3ya" class="cyeE3ya">退出</span> 
+      </li> 
+    </ul>  
+    <style __cid="cyeE3ya" class="cyeE3ya">.x-panel.pcfeyQfu-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcfeyQfu-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcfeyQfu-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcfeyQfu-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcfeyQfu-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcfeyQfu-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcfeyQfu-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcfeyQfu-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcfeyQfu-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
+  </div>  
+  <span xmlns="" component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" style="top:11px;left:111px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" __cid="cyeE3ya" class="cyeE3ya"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cyeE3ya" __cid="cyeE3ya"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cyeE3ya" style="display:none;" __cid="cyeE3ya">  
+      <div class="x-dialog-title cyeE3ya" __cid="cyeE3ya"> 
+        <button class="close cyeE3ya" __cid="cyeE3ya"> 
+          <span __cid="cyeE3ya" class="cyeE3ya">×</span> 
+        </button>  
+        <div class="x-dialog-title-text cyeE3ya" __cid="cyeE3ya"/> 
+      </div>  
+      <div class="x-dialog-body cyeE3ya" __cid="cyeE3ya"/> 
+    </div> 
+  </span> 
+</div>

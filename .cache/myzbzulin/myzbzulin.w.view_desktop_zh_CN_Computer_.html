@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<div component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cviyeiu" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cviyeiu" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/windowReceiver/windowReceiver,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,">
+  <style>null</style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cviyeiu" class="cviyeiu"></div>  
+  <span component="$model/UI2/system/components/justep/windowReceiver/windowReceiver" xid="windowReceiver1" style="top:11px;left:63px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowReceiver/windowReceiver'}" data-events="onReceive:windowReceiver1Receive" __cid="cviyeiu" class="cviyeiu"></span>
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcfMvaEb-iosstatusbar cviyeiu" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cviyeiu"> 
+    <div class="x-panel-top cviyeiu" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cviyeiu"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cviyeiu" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&#34;title&#34;:&#34;我租赁的装备&#34;}" __cid="cviyeiu"> 
+        <div class="x-titlebar-left cviyeiu" __cid="cviyeiu"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cviyeiu" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&#34;icon&#34;:&#34;icon-chevron-left&#34;,&#34;label&#34;:&#34;&#34;}" __cid="cviyeiu"> 
+            <i class="icon-chevron-left cviyeiu" __cid="cviyeiu"></i>  
+            <span __cid="cviyeiu" class="cviyeiu"></span> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cviyeiu" __cid="cviyeiu">我租赁的装备</div>  
+        <div class="x-titlebar-right  cviyeiu" __cid="cviyeiu">
+          <div class="empty cviyeiu" __cid="cviyeiu"></div>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content x-scroll-view cviyeiu" xid="content1" _xid="C7D03B8E8BE000018E9D342F12AD45F0" style="bottom: 0px; background-size: cover; background-image: url(http://localhost:45654/x5/UI2/v_/jdy1/none);" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cviyeiu">
+      <div class="x-scroll cviyeiu" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cviyeiu"> 
+        <div class="x-content-center x-pull-down container cviyeiu" xid="div1" __cid="cviyeiu"> 
+          <i class="x-pull-down-img glyphicon x-icon-pull-down cviyeiu" xid="i1" __cid="cviyeiu"></i>  
+          <span class="x-pull-down-label cviyeiu" xid="span1" __cid="cviyeiu">下拉刷新...</span>
+        </div>  
+        <div class="x-scroll-content cviyeiu" xid="div2" __cid="cviyeiu">
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list x-cards cviyeiu" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&#34;data&#34;:&#34;zbData1&#34;}" __cid="cviyeiu"> 
+            <ul class="x-list-template x-min-height list-group hide cviyeiu" xid="listTemplateUl1" componentname="$UI/system/components/justep/list/list#listTemplateUl" id="undefined_listTemplateUl1" style="padding-top:10px;padding-left:10px;padding-right:10px;" __cid="cviyeiu" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
+              <li xid="li1" class="media cviyeiu" style="border-bottom-width:1px;border-bottom-style:ridge;border-bottom-color:#C0C0C0;padding-bottom:10px;" __cid="cviyeiu"> 
+                <div xid="div4" class="media-left cviyeiu" __cid="cviyeiu"> 
+                  <img src="" alt="" xid="image1" style="width:90px;height:90px;" __cid="cviyeiu" class="cviyeiu" data-bind="attr:{src:$model.zbData1.val(&#34;zbImage&#34;)}">
+                </div>  
+                <div xid="div5" class="media-body cviyeiu" __cid="cviyeiu"> 
+                  <div component="$model/UI2/system/components/justep/row/row" class="x-row cviyeiu" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cviyeiu"> 
+                    <div class="x-col cviyeiu" xid="col2" __cid="cviyeiu"> 
+                      <h5 class="media-heading lead text-black cviyeiu" xid="h51" __cid="cviyeiu" data-bind="text:$model.zbData1.val(&#34;zbName&#34;)"></h5>
+                    </div> 
+                  </div>  
+                  <div component="$model/UI2/system/components/justep/row/row" class="x-row cviyeiu" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cviyeiu"> 
+                    <div class="x-col x-col-fixed x-col-center cviyeiu" xid="col1" style="width:auto;" __cid="cviyeiu"> 
+                      <span xid="span3" class="text-danger cviyeiu" __cid="cviyeiu">￥</span>
+                    </div>  
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output text-danger cviyeiu" xid="output1" style="height:39px;" data-bind="component:{ref:$model.zbData1.ref(&#34;zbPrice&#34;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cviyeiu"></div>  
+                    <div class="x-col x-col-fixed x-col-center cviyeiu" xid="col3" style="width:auto;" __cid="cviyeiu"> 
+                      <span xid="span5" __cid="cviyeiu" class="cviyeiu">/次</span>
+                    </div> 
+                  </div>  
+                  <div xid="div6" class="text-muted cviyeiu" __cid="cviyeiu"></div>
+                </div> 
+              </li> 
+            </ul> 
+          </div>
+        </div>  
+        <div class="x-content-center x-pull-up cviyeiu" xid="div3" __cid="cviyeiu"> 
+          <span class="x-pull-up-label cviyeiu" xid="span2" __cid="cviyeiu">加载更多...</span>
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cviyeiu" class="cviyeiu">.x-panel.pcfMvaEb-iosstatusbar >.x-panel-top {height: 48px;}.x-panel.pcfMvaEb-iosstatusbar >.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcfMvaEb-iosstatusbar >.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcfMvaEb-iosstatusbar >.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcfMvaEb-iosstatusbar >.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcfMvaEb-iosstatusbar >.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcfMvaEb-iosstatusbar >.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcfMvaEb-iosstatusbar >.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcfMvaEb-iosstatusbar >.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cnURRfq" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cnURRfq" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cnURRfq" class="cnURRfq"></div>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" style="top:14px;left:73px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/jdy1/bzulindetail.w&quot;}" __cid="cnURRfq" class="cnURRfq">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cnURRfq" __cid="cnURRfq"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cnURRfq" style="display:none;" __cid="cnURRfq">
+      <xhtml:div class="x-dialog-title cnURRfq" __cid="cnURRfq">
+        <xhtml:button class="close cnURRfq" __cid="cnURRfq">
+          <xhtml:span __cid="cnURRfq" class="cnURRfq">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cnURRfq" __cid="cnURRfq"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cnURRfq" __cid="cnURRfq"/>
+    </xhtml:div>
+  </span>
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pceuM3Mb-iosstatusbar cnURRfq" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cnURRfq"> 
+    <div class="x-panel-top cnURRfq" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cnURRfq"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cnURRfq" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;查找单车&quot;}" __cid="cnURRfq"> 
+        <div class="x-titlebar-left cnURRfq" __cid="cnURRfq"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cnURRfq" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cnURRfq"> 
+            <i class="icon-chevron-left cnURRfq" __cid="cnURRfq"/>  
+            <span __cid="cnURRfq" class="cnURRfq"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cnURRfq" __cid="cnURRfq">查找单车</div>  
+        <div class="x-titlebar-right  cnURRfq" __cid="cnURRfq">
+          <div class="empty cnURRfq" __cid="cnURRfq"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cnURRfq" xid="content1" _xid="C7CFA69D3B000001DD831BF01D591EAE" style="bottom: 0px; background-size: cover; background-image: url(http://localhost:45667/x5/UI2/v_/jdy1/none);" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cnURRfq"> 
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cnURRfq" xid="row1" style="position:static;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cnURRfq"> 
+        <div class="x-col cnURRfq" xid="col1" __cid="cnURRfq"> 
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control cnURRfq" xid="searchInput" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入搜索内容&quot;}" __cid="cnURRfq"/>
+        </div>
+        <div class="x-col x-col-fixed cnURRfq" xid="col2" style="width:auto;" __cid="cnURRfq"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cnURRfq" xid="button14" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button14Click" data-config="{&quot;label&quot;:&quot;搜索&quot;}" __cid="cnURRfq"> 
+            <i xid="i14" __cid="cnURRfq" class="cnURRfq"/>  
+            <span xid="span2" __cid="cnURRfq" class="cnURRfq">搜索</span>
+          </a> 
+        </div>
+      </div>  
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list x-cards cnURRfq" xid="list1" style="padding-top:10px;background-color:transparent;" bind-click="list1Click" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;bikesData&quot;}" __cid="cnURRfq"> 
+        <ul class="x-list-template x-min-height list-group hide cnURRfq" xid="listTemplateUl1" componentname="$UI/system/components/justep/list/list#listTemplateUl" id="undefined_listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="cnURRfq"> 
+          <li xid="li1" class="media cnURRfq" style="border-bottom-width:1px;border-bottom-style:ridge;border-bottom-color:#C0C0C0;padding-left:3px;padding-right:3px;" __cid="cnURRfq"> 
+            <div xid="div4" class="media-left cnURRfq" __cid="cnURRfq"> 
+              <img src="" alt="" xid="image1" bind-attr-src=" $model.bikesData.val(&quot;bikeImage&quot;)" style="width:90px;height:90px;" __cid="cnURRfq" class="cnURRfq"/>
+            </div>  
+            <div xid="div5" class="media-body cnURRfq" __cid="cnURRfq"> 
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row cnURRfq" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cnURRfq"> 
+                <div class="x-col cnURRfq" xid="col3" __cid="cnURRfq"> 
+                  <h5 class="media-heading lead text-black cnURRfq" bind-text=" $model.bikesData.val(&quot;bikeTitle&quot;)" xid="h51" __cid="cnURRfq"/>
+                </div> 
+              </div>  
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row cnURRfq" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cnURRfq"> 
+                <div class="x-col x-col-fixed x-col-center cnURRfq" xid="col4" style="width:auto;" __cid="cnURRfq"> 
+                  <span xid="span3" class="text-danger cnURRfq" __cid="cnURRfq">￥</span>
+                </div>  
+                <div component="$model/UI2/system/components/justep/output/output" class="x-output text-danger cnURRfq" xid="output1" style="height:39px;" data-bind="component:{ref:$model.bikesData.ref(&quot;bikePrice&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cnURRfq"/>  
+                <div class="x-col x-col-fixed x-col-center cnURRfq" xid="col3" style="width:auto;" __cid="cnURRfq"> 
+                  <span xid="span5" __cid="cnURRfq" class="cnURRfq">/次</span>
+                </div> 
+              </div>  
+              <div xid="div6" class="text-muted cnURRfq" __cid="cnURRfq"/>
+            </div> 
+          </li> 
+        </ul> 
+      </div>
+    </div>  
+    <style __cid="cnURRfq" class="cnURRfq">.x-panel.pceuM3Mb-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pceuM3Mb-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pceuM3Mb-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pceuM3Mb-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pceuM3Mb-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pceuM3Mb-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pceuM3Mb-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pceuM3Mb-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pceuM3Mb-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

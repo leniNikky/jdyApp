@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cYviqmq" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cYviqmq" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/windowReceiver/windowReceiver,$model/UI2/system/components/justep/controlGroup/controlGroup,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cYviqmq" class="cYviqmq"/>  
+  <span xmlns="" component="$model/UI2/system/components/justep/windowReceiver/windowReceiver" xid="windowReceiver1" style="top:18px;left:79px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowReceiver/windowReceiver'}" __cid="cYviqmq" class="cYviqmq"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pc7VRNnu-iosstatusbar cYviqmq" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cYviqmq"> 
+    <div class="x-panel-top cYviqmq" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYviqmq"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cYviqmq" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;修改个人信息&quot;}" __cid="cYviqmq"> 
+        <div class="x-titlebar-left cYviqmq" __cid="cYviqmq"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cYviqmq" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:backBtnClick" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cYviqmq"> 
+            <i class="icon-chevron-left cYviqmq" __cid="cYviqmq"/>  
+            <span __cid="cYviqmq" class="cYviqmq"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cYviqmq" __cid="cYviqmq">修改个人信息</div>  
+        <div class="x-titlebar-right  cYviqmq" __cid="cYviqmq"> 
+          <div class="empty cYviqmq" __cid="cYviqmq"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cYviqmq" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYviqmq"> 
+      <div component="$model/UI2/system/components/justep/controlGroup/controlGroup" class="x-control-group cYviqmq" xid="controlGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/controlGroup/controlGroup'}" data-config="{&quot;title&quot;:&quot;title&quot;}" __cid="cYviqmq"> 
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cYviqmq" xid="labelEdit7" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cYviqmq"> 
+          <label class="x-label cYviqmq" xid="label7" __cid="cYviqmq">手机号</label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cYviqmq" xid="userPhone" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入新手机号&quot;}" __cid="cYviqmq"/> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cYviqmq" xid="labelEdit1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cYviqmq"> 
+          <label class="x-label cYviqmq" xid="label1" __cid="cYviqmq">用户名</label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cYviqmq" xid="userName" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入新用户名&quot;}" __cid="cYviqmq"/> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cYviqmq" xid="labelEdit6" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cYviqmq"> 
+          <label class="x-label cYviqmq" xid="label6" __cid="cYviqmq">地址</label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cYviqmq" xid="useraddress" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入新地址&quot;}" __cid="cYviqmq"/> 
+        </div>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-primary center-block cYviqmq" xid="regBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:regBtnClick" data-config="{&quot;label&quot;:&quot;保存&quot;}" __cid="cYviqmq"> 
+          <i xid="i1" __cid="cYviqmq" class="cYviqmq"/>  
+          <span xid="span2" __cid="cYviqmq" class="cYviqmq">保存</span> 
+        </a> 
+      </div> 
+    </div>  
+    <style __cid="cYviqmq" class="cYviqmq">.x-panel.pc7VRNnu-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pc7VRNnu-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pc7VRNnu-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pc7VRNnu-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc7VRNnu-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pc7VRNnu-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc7VRNnu-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc7VRNnu-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc7VRNnu-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

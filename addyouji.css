@@ -1,0 +1,18 @@
+p{
+	padding:10px 15px;
+	margin-bottom:0px;
+}
+.x-attachment-content{
+	border:0;
+}
+.tb-trans .x-panel-top { z-index : 100; }
+.tb-trans .x-panel-top .x-titlebar{ background:none;}
+.tb-trans .x-panel-content{ top:0 !important;}
+.tb-trans.x-panel .no-iosstatusbar  >.x-panel-content{
+	top:-20px!important;
+}
+
+.tb-box .tb-backBtn, .tb-box .tb-cartBtn, .tb-box .tb-moreBtn{ width:40px; height:40px; border-radius:65px; color:#fff; background-color:rgba(0,0,0,0.4);}
+.tb-cartBtn{ margin-top:-7px;}
+
+.x-popOver-overlay{ background-color:#000;}

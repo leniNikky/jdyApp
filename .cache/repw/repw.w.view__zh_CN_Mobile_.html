@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<div component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cu6zERn" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cu6zERn" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/input/password,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/windowReceiver/windowReceiver,$model/UI2/system/components/justep/controlGroup/controlGroup,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,">
+  <style>null</style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cu6zERn" class="cu6zERn"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcuQF7na-iosstatusbar cu6zERn" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cu6zERn"> 
+    <div class="x-panel-top cu6zERn" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cu6zERn"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cu6zERn" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&#34;title&#34;:&#34;修改密码&#34;}" __cid="cu6zERn"> 
+        <div class="x-titlebar-left cu6zERn" __cid="cu6zERn"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cu6zERn" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:backBtnClick" data-config="{&#34;icon&#34;:&#34;icon-chevron-left&#34;,&#34;label&#34;:&#34;&#34;}" __cid="cu6zERn"> 
+            <i class="icon-chevron-left cu6zERn" __cid="cu6zERn"></i>  
+            <span __cid="cu6zERn" class="cu6zERn"></span> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cu6zERn" __cid="cu6zERn">修改密码</div>  
+        <div class="x-titlebar-right  cu6zERn" __cid="cu6zERn">
+          <div class="empty cu6zERn" __cid="cu6zERn"></div>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cu6zERn" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cu6zERn">
+      <div component="$model/UI2/system/components/justep/controlGroup/controlGroup" class="x-control-group cu6zERn" xid="controlGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/controlGroup/controlGroup'}" data-config="{&#34;title&#34;:&#34;title&#34;}" __cid="cu6zERn"> 
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cu6zERn" xid="oldPw" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cu6zERn"> 
+          <label class="x-label cu6zERn" xid="label7" __cid="cu6zERn">旧密码</label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cu6zERn" xid="oldpw" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&#34;placeHolder&#34;:&#34;请输入旧密码&#34;}" __cid="cu6zERn">
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cu6zERn" xid="password1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cu6zERn"> 
+          <label class="x-label cu6zERn" xid="label1" __cid="cu6zERn">新密码</label>  
+          <input component="$model/UI2/system/components/justep/input/password" class="form-control x-edit cu6zERn" xid="newpw" type="password" data-bind="component:{name:'$model/UI2/system/components/justep/input/password'}" data-config="{&#34;placeHolder&#34;:&#34;请确认密码&#34;}" __cid="cu6zERn">
+        </div>
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cu6zERn" xid="repw1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cu6zERn"> 
+          <label class="x-label cu6zERn" xid="label4" __cid="cu6zERn">确认密码</label>  
+          <input component="$model/UI2/system/components/justep/input/password" class="form-control x-edit cu6zERn" xid="repw" type="password" data-bind="component:{name:'$model/UI2/system/components/justep/input/password'}" data-config="{&#34;placeHolder&#34;:&#34;请确认密码&#34;}" __cid="cu6zERn">
+        </div>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-primary center-block cu6zERn" xid="saveBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:saveBtnClick" data-config="{&#34;label&#34;:&#34;保存&#34;}" __cid="cu6zERn"> 
+          <i xid="i1" __cid="cu6zERn" class="cu6zERn"></i>  
+          <span xid="span2" __cid="cu6zERn" class="cu6zERn">注册</span>
+        </a>
+      </div>
+    </div>  
+    <style __cid="cu6zERn" class="cu6zERn">.x-panel.pcuQF7na-iosstatusbar >.x-panel-top {height: 48px;}.x-panel.pcuQF7na-iosstatusbar >.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcuQF7na-iosstatusbar >.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcuQF7na-iosstatusbar >.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcuQF7na-iosstatusbar >.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcuQF7na-iosstatusbar >.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcuQF7na-iosstatusbar >.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcuQF7na-iosstatusbar >.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcuQF7na-iosstatusbar >.x-panel-content {top: 48px;}</style>
+  </div>  
+  <span component="$model/UI2/system/components/justep/windowReceiver/windowReceiver" xid="windowReceiver1" style="top:14px;left:49px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowReceiver/windowReceiver'}" __cid="cu6zERn" class="cu6zERn"></span>
+</div>

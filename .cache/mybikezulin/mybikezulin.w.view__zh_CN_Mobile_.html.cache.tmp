@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cVJny2i" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cVJny2i" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="cVJny2i" class="cVJny2i"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pc7ZJfuq-iosstatusbar cVJny2i" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cVJny2i"> 
+    <div class="x-panel-top cVJny2i" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cVJny2i"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cVJny2i" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;我租赁的单车&quot;}" __cid="cVJny2i"> 
+        <div class="x-titlebar-left cVJny2i" __cid="cVJny2i"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cVJny2i" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cVJny2i"> 
+            <i class="icon-chevron-left cVJny2i" __cid="cVJny2i"/>  
+            <span __cid="cVJny2i" class="cVJny2i"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cVJny2i" __cid="cVJny2i">我租赁的单车</div>  
+        <div class="x-titlebar-right  cVJny2i" __cid="cVJny2i"> 
+          <div class="empty cVJny2i" __cid="cVJny2i"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content x-scroll-view cVJny2i" xid="content1" _xid="C7D03A202BB0000122DE131916E0BB10" style="bottom: 0px; background-size: cover; background-image: url(http://localhost:45654/x5/UI2/v_/jdy1/none);" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cVJny2i"> 
+      <div class="x-scroll cVJny2i" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cVJny2i"> 
+        <div class="x-content-center x-pull-down container cVJny2i" xid="div1" __cid="cVJny2i"> 
+          <i class="x-pull-down-img glyphicon x-icon-pull-down cVJny2i" xid="i1" __cid="cVJny2i"/>  
+          <span class="x-pull-down-label cVJny2i" xid="span1" __cid="cVJny2i">下拉刷新...</span> 
+        </div>  
+        <div class="x-scroll-content cVJny2i" xid="div2" __cid="cVJny2i"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list x-cards cVJny2i" xid="list1" style="padding-top:10px;background-color:transparent;" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;bikesData&quot;}" __cid="cVJny2i"> 
+            <ul class="x-list-template x-min-height list-group hide cVJny2i" xid="listTemplateUl1" componentname="$UI/system/components/justep/list/list#listTemplateUl" id="undefined_listTemplateUl1" __cid="cVJny2i" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
+              <li xid="li1" class="media cVJny2i" style="border-bottom-width:1px;border-bottom-style:ridge;border-bottom-color:#C0C0C0;padding-left:3px;padding-right:3px;" __cid="cVJny2i"> 
+                <div xid="div4" class="media-left cVJny2i" __cid="cVJny2i"> 
+                  <img src="" alt="" xid="image1" style="width:90px;height:90px;" __cid="cVJny2i" class="cVJny2i" data-bind="attr:{src:$model.bikesData.val(&quot;bikeImage&quot;)}"/> 
+                </div>  
+                <div xid="div5" class="media-body cVJny2i" __cid="cVJny2i"> 
+                  <div component="$model/UI2/system/components/justep/row/row" class="x-row cVJny2i" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVJny2i"> 
+                    <div class="x-col cVJny2i" xid="col2" __cid="cVJny2i"> 
+                      <h5 class="media-heading lead text-black cVJny2i" xid="h51" __cid="cVJny2i" data-bind="text:$model.bikesData.val(&quot;bikeTitle&quot;)"/> 
+                    </div> 
+                  </div>  
+                  <div component="$model/UI2/system/components/justep/row/row" class="x-row cVJny2i" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cVJny2i"> 
+                    <div class="x-col x-col-fixed x-col-center cVJny2i" xid="col1" style="width:auto;" __cid="cVJny2i"> 
+                      <span xid="span3" class="text-danger cVJny2i" __cid="cVJny2i">￥</span> 
+                    </div>  
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output text-danger cVJny2i" xid="output1" style="height:39px;" data-bind="component:{ref:$model.bikesData.ref(&quot;bikePrice&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cVJny2i"/>  
+                    <div class="x-col x-col-fixed x-col-center cVJny2i" xid="col3" style="width:auto;" __cid="cVJny2i"> 
+                      <span xid="span5" __cid="cVJny2i" class="cVJny2i">/次</span> 
+                    </div> 
+                  </div>  
+                  <div xid="div6" class="text-muted cVJny2i" __cid="cVJny2i"/> 
+                </div> 
+              </li> 
+            </ul> 
+          </div> 
+        </div>  
+        <div class="x-content-center x-pull-up cVJny2i" xid="div3" __cid="cVJny2i"> 
+          <span class="x-pull-up-label cVJny2i" xid="span2" __cid="cVJny2i">加载更多...</span> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cVJny2i" class="cVJny2i">.x-panel.pc7ZJfuq-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pc7ZJfuq-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pc7ZJfuq-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pc7ZJfuq-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc7ZJfuq-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pc7ZJfuq-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc7ZJfuq-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc7ZJfuq-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc7ZJfuq-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

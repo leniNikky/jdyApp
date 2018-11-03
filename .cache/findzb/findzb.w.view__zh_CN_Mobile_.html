@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<div component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cAfUBra" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cAfUBra" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,">
+  <style>null</style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cAfUBra" class="cAfUBra"></div>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" style="top:8px;left:72px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&#34;src&#34;:&#34;$model/UI2/jdy1/zzulindetair.w&#34;}" __cid="cAfUBra" class="cAfUBra">
+    <div class="x-dialog-overlay cAfUBra" __cid="cAfUBra"></div>
+    <div class="x-dialog cAfUBra" style="display:none;" __cid="cAfUBra">
+      <div class="x-dialog-title cAfUBra" __cid="cAfUBra">
+        <button class="close cAfUBra" __cid="cAfUBra">
+          <span __cid="cAfUBra" class="cAfUBra">×</span>
+        </button>
+        <div class="x-dialog-title-text cAfUBra" __cid="cAfUBra"></div>
+      </div>
+      <div class="x-dialog-body cAfUBra" __cid="cAfUBra"></div>
+    </div>
+  </span>
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcI36N7v-iosstatusbar cAfUBra" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cAfUBra"> 
+    <div class="x-panel-top cAfUBra" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cAfUBra"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cAfUBra" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&#34;title&#34;:&#34;查找装备&#34;}" __cid="cAfUBra"> 
+        <div class="x-titlebar-left cAfUBra" __cid="cAfUBra"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cAfUBra" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&#34;icon&#34;:&#34;icon-chevron-left&#34;,&#34;label&#34;:&#34;&#34;}" __cid="cAfUBra"> 
+            <i class="icon-chevron-left cAfUBra" __cid="cAfUBra"></i>  
+            <span __cid="cAfUBra" class="cAfUBra"></span> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cAfUBra" __cid="cAfUBra">查找装备</div>  
+        <div class="x-titlebar-right  cAfUBra" __cid="cAfUBra">
+          <div class="empty cAfUBra" __cid="cAfUBra"></div>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cAfUBra" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cAfUBra">
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cAfUBra" xid="row1" style="position:static;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cAfUBra"> 
+        <div class="x-col cAfUBra" xid="col1" __cid="cAfUBra"> 
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control cAfUBra" xid="searchInput" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&#34;placeHolder&#34;:&#34;请输入搜索内容&#34;}" __cid="cAfUBra">
+        </div>  
+        <div class="x-col x-col-fixed cAfUBra" xid="col2" style="width:auto;" __cid="cAfUBra"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cAfUBra" xid="button14" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button14Click" data-config="{&#34;label&#34;:&#34;搜索&#34;}" __cid="cAfUBra"> 
+            <i xid="i14" __cid="cAfUBra" class="cAfUBra"></i>  
+            <span xid="span2" __cid="cAfUBra" class="cAfUBra">搜索</span>
+          </a> 
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list x-cards cAfUBra" xid="list1" style="padding-top:10px;background-color:transparent;" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'},event:{click:$model._callModelFn.bind($model, 'list1Click')}" data-config="{&#34;data&#34;:&#34;zbData1&#34;}" __cid="cAfUBra"> 
+        <ul class="x-list-template x-min-height list-group hide cAfUBra" xid="listTemplateUl1" componentname="$UI/system/components/justep/list/list#listTemplateUl" id="undefined_listTemplateUl1" __cid="cAfUBra" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
+          <li xid="li1" class="media cAfUBra" style="border-bottom-width:1px;border-bottom-style:ridge;border-bottom-color:#C0C0C0;padding-left:3px;padding-right:3px;" __cid="cAfUBra"> 
+            <div xid="div4" class="media-left cAfUBra" __cid="cAfUBra"> 
+              <img src="" alt="" xid="image1" style="width:90px;height:90px;" __cid="cAfUBra" class="cAfUBra" data-bind="attr:{src:$model.zbData1.val(&#34;zbImage&#34;)}">
+            </div>  
+            <div xid="div5" class="media-body cAfUBra" __cid="cAfUBra"> 
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row cAfUBra" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cAfUBra"> 
+                <div class="x-col cAfUBra" xid="col3" __cid="cAfUBra"> 
+                  <h5 class="media-heading lead text-black cAfUBra" xid="h51" __cid="cAfUBra" data-bind="text:$model.zbData1.val(&#34;zbName&#34;)"></h5>
+                </div> 
+              </div>  
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row cAfUBra" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cAfUBra"> 
+                <div class="x-col x-col-fixed x-col-center cAfUBra" xid="col4" style="width:auto;" __cid="cAfUBra"> 
+                  <span xid="span3" class="text-danger cAfUBra" __cid="cAfUBra">￥</span>
+                </div>  
+                <div component="$model/UI2/system/components/justep/output/output" class="x-output text-danger cAfUBra" xid="output1" style="height:39px;" data-bind="component:{ref:$model.zbData1.ref(&#34;zbPrice&#34;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cAfUBra"></div>  
+                <div class="x-col x-col-fixed x-col-center cAfUBra" xid="col3" style="width:auto;" __cid="cAfUBra"> 
+                  <span xid="span5" __cid="cAfUBra" class="cAfUBra">/次</span>
+                </div> 
+              </div>  
+              <div xid="div6" class="text-muted cAfUBra" __cid="cAfUBra"></div>
+            </div> 
+          </li> 
+        </ul> 
+      </div>
+    </div>  
+    <style __cid="cAfUBra" class="cAfUBra">.x-panel.pcI36N7v-iosstatusbar >.x-panel-top {height: 48px;}.x-panel.pcI36N7v-iosstatusbar >.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcI36N7v-iosstatusbar >.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcI36N7v-iosstatusbar >.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcI36N7v-iosstatusbar >.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcI36N7v-iosstatusbar >.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcI36N7v-iosstatusbar >.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcI36N7v-iosstatusbar >.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcI36N7v-iosstatusbar >.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

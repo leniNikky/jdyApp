@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cqiMjie" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cqiMjie" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,$model/UI2/system/components/justep/button/buttonGroup,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cqiMjie" class="cqiMjie"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcyUJnmi-iosstatusbar cqiMjie" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cqiMjie"> 
+    <div class="x-panel-top cqiMjie" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cqiMjie"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cqiMjie" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;我的淘宝&quot;}" __cid="cqiMjie"> 
+        <div class="x-titlebar-left cqiMjie" xid="left1" __cid="cqiMjie"/>  
+        <div class="x-titlebar-title cqiMjie" xid="title1" __cid="cqiMjie">我的淘宝</div>  
+        <div class="x-titlebar-right  cqiMjie" xid="right1" __cid="cqiMjie">
+          <div class="empty cqiMjie" __cid="cqiMjie"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content  x-scroll-view cqiMjie" xid="content1" _xid="C6F5B0969BE00001D49313F012631710" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cqiMjie"> 
+      <div class="x-scroll cqiMjie" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cqiMjie"> 
+        <div class="x-content-center x-pull-down container cqiMjie" xid="div1" __cid="cqiMjie"> 
+          <i class="x-pull-down-img glyphicon x-icon-pull-down cqiMjie" xid="i3" __cid="cqiMjie"/>  
+          <span class="x-pull-down-label cqiMjie" xid="span3" __cid="cqiMjie">下拉刷新...</span>
+        </div>  
+        <div class="x-scroll-content cqiMjie" xid="div2" __cid="cqiMjie">
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list x-cards cqiMjie" xid="list2" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;listData&quot;}" __cid="cqiMjie"> 
+            <ul class="x-list-template list-group hide cqiMjie" xid="listTemplateUl2" bind-foreach="{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}" __cid="cqiMjie"> 
+              <li xid="li2" class="list-group-item cqiMjie" __cid="cqiMjie"> 
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cqiMjie" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cqiMjie"> 
+                  <div class="x-col x-col-fixed cqiMjie" xid="col3" style="width:auto;" __cid="cqiMjie"> 
+                    <img src="" alt="" xid="image2" bind-attr-src=" $model.getImageUrl( $object.val(&quot;photo&quot;))" style="height:90px;width:82px;" __cid="cqiMjie" class="cqiMjie"/>
+                  </div>  
+                  <div class="x-col cqiMjie" xid="col4" __cid="cqiMjie"> 
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cqiMjie" xid="output6" style="font-size:16px;font-weight:bold;" data-bind="component:{ref:ref('title'),name:'$model/UI2/system/components/justep/output/output'}" __cid="cqiMjie"/>
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cqiMjie" xid="output5" data-bind="component:{ref:ref('price'),name:'$model/UI2/system/components/justep/output/output'}" __cid="cqiMjie"/> 
+                  </div> 
+                </div> 
+              </li> 
+            </ul> 
+          </div>
+        </div>  
+        <div class="x-content-center x-pull-up cqiMjie" xid="div3" __cid="cqiMjie"> 
+          <span class="x-pull-up-label cqiMjie" xid="span4" __cid="cqiMjie">加载更多...</span>
+        </div> 
+      </div>
+    </div>  
+    <div class="x-panel-bottom cqiMjie" xid="bottom1" style="background-color:#f2f2f2;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cqiMjie"> 
+      <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group btn-group-justified cqiMjie" xid="buttonGroup1" style="height:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="cqiMjie"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cqiMjie" xid="homeBtn" style="color:#000000;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;glyphicon glyphicon-home&quot;,&quot;label&quot;:&quot;首页&quot;}" __cid="cqiMjie"> 
+          <i xid="i22" class="glyphicon glyphicon-home cqiMjie" __cid="cqiMjie"/>  
+          <span xid="span23" __cid="cqiMjie" class="cqiMjie">首页</span> 
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cqiMjie" xid="cartBtn" style="color:#000000;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-cart&quot;,&quot;label&quot;:&quot;购物车&quot;}" __cid="cqiMjie"> 
+          <i xid="i2" class="icon-ios7-cart cqiMjie" __cid="cqiMjie"/>  
+          <span xid="span2" __cid="cqiMjie" class="cqiMjie">购物车</span>
+        </a>
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cqiMjie" xid="userBtn" style="color:#000000;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-social-user&quot;,&quot;label&quot;:&quot;个人中心&quot;}" __cid="cqiMjie"> 
+          <i xid="i24" class="icon-android-social-user cqiMjie" __cid="cqiMjie"/>  
+          <span xid="span25" __cid="cqiMjie" class="cqiMjie">个人中心</span> 
+        </a> 
+      </div> 
+    </div>  
+    <style __cid="cqiMjie" class="cqiMjie">.x-panel.pcyUJnmi-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcyUJnmi-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcyUJnmi-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcyUJnmi-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcyUJnmi-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcyUJnmi-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcyUJnmi-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcyUJnmi-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcyUJnmi-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

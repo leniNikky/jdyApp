@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<div xid="window" class="window caINnQb" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="caINnQb" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="caINnQb" class="caINnQb"></div>  
+  <div component="$model/UI2/system/components/justep/list/list" class="x-list caINnQb" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&#34;data&#34;:&#34;baasData1&#34;}" __cid="caINnQb"> 
+    <ul class="x-list-template hide caINnQb" xid="listTemplateUl1" __cid="caINnQb" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
+      <li xid="li1" __cid="caINnQb" class="caINnQb">
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row caINnQb" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="caINnQb"> 
+          <div class="x-col caINnQb" xid="col1" __cid="caINnQb">
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control caINnQb" xid="input1" data-bind="component:{ref:ref(&#34;aname&#34;),name:'$model/UI2/system/components/justep/input/input'}" __cid="caINnQb">
+          </div>  
+          <div class="x-col caINnQb" xid="col2" __cid="caINnQb">
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control caINnQb" xid="input2" data-bind="component:{ref:ref(&#34;acontent&#34;),name:'$model/UI2/system/components/justep/input/input'}" __cid="caINnQb">
+          </div>  
+          <div class="x-col caINnQb" xid="col3" __cid="caINnQb">
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control caINnQb" xid="input3" data-bind="component:{ref:ref(&#34;aorganizer&#34;),name:'$model/UI2/system/components/justep/input/input'}" __cid="caINnQb">
+          </div>
+        </div> 
+      </li>
+    </ul> 
+  </div>  
+  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default caINnQb" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{&#34;operation&#34;:&#34;baasData1.delete&#34;}" data-config="{&#34;label&#34;:&#34;删除&#34;}" __cid="caINnQb"> 
+    <i xid="i1" __cid="caINnQb" class="caINnQb"></i>  
+    <span xid="span1" __cid="caINnQb" class="caINnQb">删除</span>
+  </a>  
+  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default caINnQb" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{&#34;operation&#34;:&#34;baasData1.new&#34;}" data-config="{&#34;label&#34;:&#34;增加&#34;}" __cid="caINnQb"> 
+    <i xid="i2" __cid="caINnQb" class="caINnQb"></i>  
+    <span xid="span2" __cid="caINnQb" class="caINnQb">增加</span>
+  </a>  
+  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default caINnQb" xid="button3" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{&#34;operation&#34;:&#34;baasData1.save&#34;}" data-config="{&#34;label&#34;:&#34;保存&#34;}" __cid="caINnQb"> 
+    <i xid="i3" __cid="caINnQb" class="caINnQb"></i>  
+    <span xid="span3" __cid="caINnQb" class="caINnQb">保存</span>
+  </a>
+</div>

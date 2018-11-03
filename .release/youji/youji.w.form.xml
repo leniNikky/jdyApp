@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" class="main13 cyQBV7r" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cyQBV7r" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/bootstrap/carousel/carousel,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">h5.cyQBV7r, .h5.cyQBV7r{color: rgb(0, 0, 0); font-size: 16px} .text-danger.cyQBV7r{color: rgb(234, 65, 60)} .text-black.cyQBV7r{color: rgb(0, 0, 0)} .x-panel-top.cyQBV7r .x-titlebar.cyQBV7r{background-color: rgb(234, 65, 60)} .x-bar.cyQBV7r{background-color: rgb(225, 225, 225); border: none} .x-titlebar.cyQBV7r .x-titlebar-right.cyQBV7r .btn.cyQBV7r{padding-left: 30px} .img1.cyQBV7r{height: 200px} .img3.cyQBV7r{height: 60px} .img_new.cyQBV7r{width: 100px; height: 70px} .img_small.cyQBV7r{height: 15px} .img_cloud.cyQBV7r{height: 30px} .btn.cyQBV7r i.cyQBV7r{font-size: 20px} .o-nomargintop.cyQBV7r{margin-top: 0} .x-nav.x-row.cyQBV7r, .x-nav.cyQBV7r .x-col.cyQBV7r{padding: 0; background-color: rgb(250, 250, 250)} .x-nav.cyQBV7r .x-col.cyQBV7r:nth-child(1){height: 41px; overflow: hidden} .x-nav.cyQBV7r .x-col.cyQBV7r:nth-child(2){width: 50px} .x-nav.cyQBV7r .x-col.cyQBV7r .x-navbox.cyQBV7r{height: 61px; overflow-x: scroll; overflow-y: hidden} .x-nav.cyQBV7r .x-col.cyQBV7r .x-navbox.cyQBV7r .btn-group.cyQBV7r{width: 480px} .x-nav.cyQBV7r .btn-group.cyQBV7r .btn.cyQBV7r{height: 41px; border-top: 0; font-weight: normal; color: rgb(153, 153, 153)} .x-nav.cyQBV7r .btn-group.cyQBV7r .btn.active.cyQBV7r{height: 41px; border-bottom: 2px solid rgb(234, 65, 60); color: rgb(234, 65, 60)} .x-nav.cyQBV7r .navMoreBtn.cyQBV7r{background-color: rgb(225, 225, 225)} .x-popOver-overlay.cyQBV7r{background-color: rgb(0, 0, 0)} .x-popOver-content.cyQBV7r{border-radius: 0} .x-wangyiOver.cyQBV7r h5.cyQBV7r{padding-left: 15px} .x-wangyiOver.cyQBV7r .x-titlebar.cyQBV7r{height: 40px; background-color: rgb(241, 241, 241)} .x-wangyiOver.cyQBV7r .x-navGroup.cyQBV7r{padding-bottom: 0} .x-wangyiOver.cyQBV7r .x-navGroup.cyQBV7r .col-xs-3.cyQBV7r{padding-left: 3px; padding-right: 3px} .x-wangyiOver.cyQBV7r .x-navGroup.cyQBV7r .btn.cyQBV7r{border-color: rgb(204, 204, 204); border-radius: 3px; margin-bottom: 10px; color: rgb(102, 102, 102); display: block} .x-wangyiOver.cyQBV7r .x-navGroup.cyQBV7r .btn.active.cyQBV7r{border-color: red; background-color: rgb(234, 65, 60); color: rgb(255, 255, 255)} .x-seach.cyQBV7r{background-color: rgb(246, 246, 246); display: none} .x-seach.cyQBV7r span.cyQBV7r{margin: 10px 10px 0 0} .x-wangyi.btn-group.cyQBV7r{background-color: rgb(255, 255, 255)} .x-wangyi.btn-group.cyQBV7r .btn.cyQBV7r{border-top: 0} .x-wangyi.btn-group.cyQBV7r .btn.cyQBV7r span.cyQBV7r{font-size: 12px; font-weight: normal} .x-card.btn-group.cyQBV7r .btn.active.cyQBV7r{color: rgb(234, 65, 60); padding: 0; border-top: 0} .x-banner.cyQBV7r{overflow-x: hidden} .x-banner.cyQBV7r .carousel-indicators.cyQBV7r{bottom: 20px; margin-left: 10%} .x-banner.cyQBV7r .carousel-indicators.cyQBV7r .active.cyQBV7r{width: 8px; height: 8px} .x-banner.cyQBV7r .carousel-indicators.cyQBV7r li.cyQBV7r{width: 6px; height: 6px} .x-banner.cyQBV7r .x-contents.cyQBV7r .x-contents-content.cyQBV7r .x-title.cyQBV7r{background-color: rgb(255, 255, 255); padding: 5px} .x-wangyi.panel.cyQBV7r{margin-bottom: 10px} .x-wangyi.panel.cyQBV7r &gt; .panel-heading.cyQBV7r .panel-title.cyQBV7r{color: rgb(51, 51, 51)} .x-wangyi.cyQBV7r .list-group-item.cyQBV7r{border-radius: 0} .x-wangyi.cyQBV7r .list-group-item.cyQBV7r:last-child{border-bottom: 0} .o-nomargin.cyQBV7r{margin-left: 0; margin-right: 0} .o-nopadding.cyQBV7r{padding-left: 0; padding-right: 0}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="cyQBV7r" class="cyQBV7r"></div>  
+  <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cyQBV7r" xid="contents2" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cyQBV7r"> 
+    <div class="x-contents-content active cyQBV7r" xid="content3" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cyQBV7r">
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cyQBV7r" xid="navContents" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0,&quot;wrap&quot;:false}" __cid="cyQBV7r"> 
+        <div class="x-contents-content active cyQBV7r" xid="navContent1" bind-touchmove="navContent1Touchmove" bind-touchstart="navContent1Touchstart" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cyQBV7r"> 
+          <div component="$model/UI2/system/components/bootstrap/carousel/carousel" class="x-carousel carousel x-banner cyQBV7r" xid="carousel1" data-bind="component:{name:'$model/UI2/system/components/bootstrap/carousel/carousel'}" __cid="cyQBV7r"> 
+            <ol class="carousel-indicators cyQBV7r" xid="ol1" __cid="cyQBV7r"/>  
+            <div class="x-contents carousel-inner cyQBV7r" role="listbox" component="$model/UI2/system/components/justep/contents/contents" xid="bannerContents" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0,&quot;slidable&quot;:true,&quot;swipe&quot;:true,&quot;wrap&quot;:true}" __cid="cyQBV7r"> 
+              <div class="x-contents-content active cyQBV7r" xid="banner1" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cyQBV7r"> 
+                <img alt="" xid="image1" id="image1" class="image-wall img1 cyQBV7r" bind-attr-src="$model.getImageUrl('./main/img/yj2.jpg')" __cid="cyQBV7r"/>  
+                <div class="x-title cyQBV7r" xid="div17" __cid="cyQBV7r"> 
+                  <img alt="" class="img_small cyQBV7r" bind-attr-src="$model.getImageUrl('./main/img/icon1.png')" xid="image4" __cid="cyQBV7r"/>  
+                  <span xid="span35" __cid="cyQBV7r" class="cyQBV7r">胖胎车的冒险零下19℃骑行阿拉斯加荒原</span> 
+                </div> 
+              </div>  
+              <div class="x-contents-content cyQBV7r" xid="banner2" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cyQBV7r"> 
+                <img alt="" xid="image2" id="image2" class="image-wall img1 cyQBV7r" bind-attr-src="$model.getImageUrl('./main/img/yj1.jpg')" __cid="cyQBV7r"/>  
+                <div class="x-title cyQBV7r" xid="div10" __cid="cyQBV7r"> 
+                  <img alt="" class="img_small cyQBV7r" xid="image8" bind-attr-src="$model.getImageUrl('./main/img/icon1.png')" __cid="cyQBV7r"/>  
+                  <span xid="span22" __cid="cyQBV7r" class="cyQBV7r">骑行入藏 是为了让生命更有意义</span> 
+                </div> 
+              </div>  
+              <div class="x-contents-content cyQBV7r" xid="banner3" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cyQBV7r"> 
+                <img alt="" xid="image13" id="image13" class="image-wall img1 cyQBV7r" bind-attr-src="$model.getImageUrl('./main/img/yj3.jpg')" __cid="cyQBV7r"/>  
+                <div class="x-title cyQBV7r" xid="div11" __cid="cyQBV7r"> 
+                  <img alt="" class="img_small cyQBV7r" xid="image9" bind-attr-src="$model.getImageUrl('./main/img/icon1.png')" __cid="cyQBV7r"/>  
+                  <span xid="span23" __cid="cyQBV7r" class="cyQBV7r">穿越塔克拉玛干沙漠骑行之旅</span> 
+                </div> 
+              </div>  
+              <div class="x-contents-content cyQBV7r" xid="banner4" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cyQBV7r"> 
+                <img alt="" xid="image14" id="image14" class="image-wall img1 cyQBV7r" bind-attr-src="$model.getImageUrl('./main/img/yj4.jpg')" __cid="cyQBV7r"/>  
+                <div class="x-title cyQBV7r" xid="div12" __cid="cyQBV7r"> 
+                  <img alt="" class="img_small cyQBV7r" xid="image10" bind-attr-src="$model.getImageUrl('./main/img/icon1.png')" __cid="cyQBV7r"/>  
+                  <span xid="span24" __cid="cyQBV7r" class="cyQBV7r">纵贯美洲大陆（5）加拿大的“中土世界”</span> 
+                </div> 
+              </div> 
+            </div> 
+          </div>  
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list cyQBV7r" xid="list2" style="background-color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;youjiData1&quot;}" __cid="cyQBV7r"> 
+            <ul class="x-list-template hide cyQBV7r" xid="listTemplateUl2" bind-foreach="{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}" __cid="cyQBV7r"> 
+              <li xid="li2" __cid="cyQBV7r" class="cyQBV7r">
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cyQBV7r" xid="row4" style="background-color:transparent;" bind-click="list2Click" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cyQBV7r"> 
+                  <div class="x-col x-col-fixed cyQBV7r" xid="col3" style="width:auto;" __cid="cyQBV7r"> 
+                    <img src="" alt="" xid="image5" bind-attr-src=" val(&quot;yimg&quot;)" style="height:90px;width:82px;" __cid="cyQBV7r" class="cyQBV7r"/>
+                  </div>  
+                  <div class="x-col cyQBV7r" xid="col4" style="width:75%;" __cid="cyQBV7r"> 
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cyQBV7r" xid="output6" style="font-size:16px;font-weight:bold;overflow:hidden;" data-bind="component:{ref:ref(&quot;yname&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cyQBV7r"/>  
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cyQBV7r" xid="output6" style="overflow:hidden;width:98%;position:relative;height:30px;" data-bind="component:{ref:ref(&quot;ycontent&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cyQBV7r">...</div>  
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cyQBV7r" xid="output1" style="flaot:left;overflow:hidden;" data-bind="component:{ref:ref(&quot;ydate&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cyQBV7r"/>
+                  </div> 
+                </div>
+              </li>
+            </ul>  
+            <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog2" style="top:20px;left:57px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/jdy1/youjidetair.w&quot;}" __cid="cyQBV7r" class="cyQBV7r">
+              <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cyQBV7r" __cid="cyQBV7r"/>
+              <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cyQBV7r" style="display:none;" __cid="cyQBV7r">
+                <xhtml:div class="x-dialog-title cyQBV7r" __cid="cyQBV7r">
+                  <xhtml:button class="close cyQBV7r" __cid="cyQBV7r">
+                    <xhtml:span __cid="cyQBV7r" class="cyQBV7r">×</xhtml:span>
+                  </xhtml:button>
+                  <xhtml:div class="x-dialog-title-text cyQBV7r" __cid="cyQBV7r"/>
+                </xhtml:div>
+                <xhtml:div class="x-dialog-body cyQBV7r" __cid="cyQBV7r"/>
+              </xhtml:div>
+            </span>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>  
+  <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cyQBV7r" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cyQBV7r"> 
+    <div class="x-titlebar-left cyQBV7r" xid="left1" __cid="cyQBV7r"/>  
+    <div class="x-titlebar-title cyQBV7r" xid="title1" __cid="cyQBV7r">游记</div>  
+    <div class="x-titlebar-right  cyQBV7r" xid="right1" __cid="cyQBV7r">
+      <div class="empty cyQBV7r" __cid="cyQBV7r"/>
+    </div>
+  </div>
+</div>

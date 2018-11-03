@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cuyiema" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cuyiema" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/windowReceiver/windowReceiver,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/textarea/textarea,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">p.cuyiema{padding: 10px 15px; margin-bottom: 0px} .x-attachment-content.cuyiema{border: 0} .tb-trans.cuyiema .x-panel-top.cuyiema{z-index: 100} .tb-trans.cuyiema .x-panel-top.cuyiema .x-titlebar.cuyiema{background: none} .tb-trans.cuyiema .x-panel-content.cuyiema{top: 0 !important} .tb-trans.x-panel.cuyiema .no-iosstatusbar.cuyiema &gt; .x-panel-content.cuyiema{top: -20px !important} .tb-box.cuyiema .tb-backBtn.cuyiema, .tb-box.cuyiema .tb-cartBtn.cuyiema, .tb-box.cuyiema .tb-moreBtn.cuyiema{width: 40px; height: 40px; border-radius: 65px; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0.4)} .tb-cartBtn.cuyiema{margin-top: -7px} .x-popOver-overlay.cuyiema{background-color: rgb(0, 0, 0)}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cuyiema" class="cuyiema"/>  
+  <span component="$model/UI2/system/components/justep/windowReceiver/windowReceiver" xid="windowReceiver1" data-bind="component:{name:'$model/UI2/system/components/justep/windowReceiver/windowReceiver'}" __cid="cuyiema" class="cuyiema"/>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" __cid="cuyiema" class="cuyiema">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cuyiema" __cid="cuyiema"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cuyiema" style="display:none;" __cid="cuyiema">
+      <xhtml:div class="x-dialog-title cuyiema" __cid="cuyiema">
+        <xhtml:button class="close cuyiema" __cid="cuyiema">
+          <xhtml:span __cid="cuyiema" class="cuyiema">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cuyiema" __cid="cuyiema"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cuyiema" __cid="cuyiema"/>
+    </xhtml:div>
+  </span>
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcyi2aqm-iosstatusbar cuyiema" xid="panel1" style="background-color:#F2F2F2;" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cuyiema"> 
+    <div class="x-panel-top cuyiema" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cuyiema"> 
+      <div class="x-panel-top cuyiema" xid="div14" __cid="cuyiema"> 
+        <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar tb-box cuyiema" xid="titleBar" style="background-color:transparent;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cuyiema"> 
+          <div class="x-titlebar-left cuyiema" xid="left1" __cid="cuyiema"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon tb-backBtn cuyiema" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:backBtnClick" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;}" __cid="cuyiema"> 
+              <i xid="i6" class="icon-chevron-left cuyiema" __cid="cuyiema"/>  
+              <span xid="span6" __cid="cuyiema" class="cuyiema">关闭</span>
+            </a> 
+          </div>  
+          <div class="x-titlebar-title cuyiema" xid="title1" style="color:#000000;" __cid="cuyiema">发表游记</div>  
+          <div class="x-titlebar-right  cuyiema" xid="right1" __cid="cuyiema">
+            <div class="empty cuyiema" __cid="cuyiema"/>
+          </div>
+        </div> 
+      </div>
+    </div>
+    <div class="x-panel-content cuyiema" xid="content1" style="position:absolute;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cuyiema">
+      <div xid="div15" __cid="cuyiema" class="cuyiema"> 
+        <p xid="p4" style="font-size:16px;font-weight:bold;" __cid="cuyiema" class="cuyiema">游记标题</p>
+      </div>
+      <textarea component="$model/UI2/system/components/justep/textarea/textarea" xid="yname" class="form-control cuyiema" data-bind="component:{name:'$model/UI2/system/components/justep/textarea/textarea'}" data-config="{&quot;placeHolder&quot;:&quot;请输入游记标题&quot;}" __cid="cuyiema"/>
+      <div xid="div16" __cid="cuyiema" class="cuyiema"> 
+        <p xid="p5" style="font-size:16px;font-weight:bold;" __cid="cuyiema" class="cuyiema">游记内容</p>
+      </div>
+      <textarea component="$model/UI2/system/components/justep/textarea/textarea" xid="ycontent" class="form-control cuyiema" data-bind="component:{name:'$model/UI2/system/components/justep/textarea/textarea'}" data-config="{&quot;placeHolder&quot;:&quot;请输入游记内容&quot;}" __cid="cuyiema"/>
+      <div xid="div2" style="margin-top:10px;margin-left:0px;" __cid="cuyiema" class="cuyiema"> 
+        <p xid="p2" style="font-size:16px;float:left;font-weight:bold;" __cid="cuyiema" class="cuyiema">上传图片</p>
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cuyiema" xid="button1" style="background-color:transparent;color:#3FA4C0;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button1Click" data-config="{&quot;icon&quot;:&quot;linear linear-camera&quot;,&quot;label&quot;:&quot;选择图片&quot;}" __cid="cuyiema"> 
+          <i xid="i1" class="linear linear-camera cuyiema" __cid="cuyiema"/>  
+          <span xid="span1" __cid="cuyiema" class="cuyiema">选择图片</span>
+        </a>
+      </div>
+      <div component="$model/UI2/system/components/justep/row/row" style="font-size:16px;" class="x-row cuyiema" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cuyiema"> 
+        <div class="x-col x-col-fixed cuyiema" xid="col10" style="width:auto;margin-left:5px;" __cid="cuyiema"> 
+          <label xid="label4" style="font-size:16px;" __cid="cuyiema" class="cuyiema">选择日期：</label>
+        </div>  
+        <div class="x-col cuyiema" xid="col11" __cid="cuyiema"> 
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control cuyiema" xid="ydate" style="font-size:16px;margin-top:-5px;background-color:#FFFFFF;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;dataType&quot;:&quot;Date&quot;,&quot;placeHolder&quot;:&quot;请选择日期&quot;}" __cid="cuyiema"/>
+        </div> 
+      </div>
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cuyiema" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cuyiema"> 
+        <div class="x-col cuyiema" xid="col1" __cid="cuyiema"/>  
+        <div class="x-col x-col-80 cuyiema" xid="col2" __cid="cuyiema">
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-block cuyiema" xid="submitBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:submitBtnClick" data-config="{&quot;label&quot;:&quot;发表&quot;}" __cid="cuyiema"> 
+            <i xid="i2" __cid="cuyiema" class="cuyiema"/>  
+            <span xid="span5" __cid="cuyiema" class="cuyiema">发表</span>
+          </a>
+        </div>  
+        <div class="x-col cuyiema" xid="col3" __cid="cuyiema"/>
+      </div> 
+    </div>  
+    <style __cid="cuyiema" class="cuyiema">.x-panel.pcyi2aqm-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcyi2aqm-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcyi2aqm-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcyi2aqm-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcyi2aqm-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcyi2aqm-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcyi2aqm-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcyi2aqm-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcyi2aqm-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

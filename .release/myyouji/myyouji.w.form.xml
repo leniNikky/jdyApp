@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cqaaUnm" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cqaaUnm" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/windowReceiver/windowReceiver,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cqaaUnm" class="cqaaUnm"></div>  
+  <span component="$model/UI2/system/components/justep/windowReceiver/windowReceiver" xid="windowReceiver1" style="top:10px;left:76px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowReceiver/windowReceiver'}" data-events="onReceive:windowReceiver1Receive" __cid="cqaaUnm" class="cqaaUnm"/>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" style="top:17px;left:147px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/jdy1/youjidetair.w&quot;}" __cid="cqaaUnm" class="cqaaUnm">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cqaaUnm" __cid="cqaaUnm"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cqaaUnm" style="display:none;" __cid="cqaaUnm">
+      <xhtml:div class="x-dialog-title cqaaUnm" __cid="cqaaUnm">
+        <xhtml:button class="close cqaaUnm" __cid="cqaaUnm">
+          <xhtml:span __cid="cqaaUnm" class="cqaaUnm">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cqaaUnm" __cid="cqaaUnm"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cqaaUnm" __cid="cqaaUnm"/>
+    </xhtml:div>
+  </span>
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcbMjiQv-iosstatusbar cqaaUnm" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cqaaUnm"> 
+    <div class="x-panel-top cqaaUnm" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cqaaUnm"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cqaaUnm" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;我的游记&quot;}" __cid="cqaaUnm"> 
+        <div class="x-titlebar-left cqaaUnm" __cid="cqaaUnm"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cqaaUnm" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:backBtnClick" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cqaaUnm"> 
+            <i class="icon-chevron-left cqaaUnm" __cid="cqaaUnm"/>  
+            <span __cid="cqaaUnm" class="cqaaUnm"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cqaaUnm" __cid="cqaaUnm">我的游记</div>  
+        <div class="x-titlebar-right  cqaaUnm" __cid="cqaaUnm">
+          <div class="empty cqaaUnm" __cid="cqaaUnm"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content x-scroll-view cqaaUnm" xid="content1" _xid="C7CEEE6946C000012281114919501157" style="bottom: 0px; background-size: cover; background-image: url(http://localhost:46332/x5/UI2/v_/jdy1/none);" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cqaaUnm">
+      <div class="x-scroll cqaaUnm" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cqaaUnm"> 
+        <div class="x-content-center x-pull-down container cqaaUnm" xid="div1" __cid="cqaaUnm"> 
+          <i class="x-pull-down-img glyphicon x-icon-pull-down cqaaUnm" xid="i1" __cid="cqaaUnm"/>  
+          <span class="x-pull-down-label cqaaUnm" xid="span1" __cid="cqaaUnm">下拉刷新...</span>
+        </div>  
+        <div class="x-scroll-content cqaaUnm" xid="div2" __cid="cqaaUnm">
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list cqaaUnm" xid="list1" bind-click="list1Click" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;youjiData1&quot;}" __cid="cqaaUnm"> 
+            <ul class="x-list-template hide cqaaUnm" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="cqaaUnm"> 
+              <li xid="li1" __cid="cqaaUnm" class="cqaaUnm">
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cqaaUnm" xid="row4" style="background-color:transparent;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cqaaUnm"> 
+                  <div class="x-col x-col-fixed cqaaUnm" xid="col3" style="width:auto;" __cid="cqaaUnm"> 
+                    <img src="" alt="" xid="image5" bind-attr-src=" $model.youjiData1.val(&quot;yimg&quot;)" style="height:90px;width:82px;" __cid="cqaaUnm" class="cqaaUnm"/>
+                  </div>  
+                  <div class="x-col cqaaUnm" xid="col4" style="width:75%;" __cid="cqaaUnm"> 
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cqaaUnm" xid="output6" style="font-size:16px;font-weight:bold;overflow:hidden;" data-bind="component:{ref:ref(&quot;yname&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cqaaUnm"/>  
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cqaaUnm" xid="output6" style="overflow:hidden;width:98%;position:relative;height:30px;" data-bind="component:{ref:ref(&quot;ycontent&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cqaaUnm">...</div>  
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cqaaUnm" xid="output1" style="flaot:left;overflow:hidden;" data-bind="component:{ref:ref(&quot;ydate&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cqaaUnm"/>
+                  </div> 
+                </div>
+              </li>
+            </ul> 
+          </div>
+        </div>  
+        <div class="x-content-center x-pull-up cqaaUnm" xid="div3" __cid="cqaaUnm"> 
+          <span class="x-pull-up-label cqaaUnm" xid="span2" __cid="cqaaUnm">加载更多...</span>
+        </div> 
+      </div>
+    </div>  
+    <style __cid="cqaaUnm" class="cqaaUnm">.x-panel.pcbMjiQv-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcbMjiQv-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcbMjiQv-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcbMjiQv-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcbMjiQv-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcbMjiQv-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcbMjiQv-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcbMjiQv-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcbMjiQv-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window caINnQb" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="caINnQb" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,">  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="caINnQb" class="caINnQb"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/list/list" class="x-list caINnQb" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;baasData1&quot;}" __cid="caINnQb"> 
+    <ul class="x-list-template hide caINnQb" xid="listTemplateUl1" __cid="caINnQb" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
+      <li xid="li1" __cid="caINnQb" class="caINnQb"> 
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row caINnQb" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="caINnQb"> 
+          <div class="x-col caINnQb" xid="col1" __cid="caINnQb"> 
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control caINnQb" xid="input1" data-bind="component:{ref:ref(&quot;aname&quot;),name:'$model/UI2/system/components/justep/input/input'}" __cid="caINnQb"/> 
+          </div>  
+          <div class="x-col caINnQb" xid="col2" __cid="caINnQb"> 
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control caINnQb" xid="input2" data-bind="component:{ref:ref(&quot;acontent&quot;),name:'$model/UI2/system/components/justep/input/input'}" __cid="caINnQb"/> 
+          </div>  
+          <div class="x-col caINnQb" xid="col3" __cid="caINnQb"> 
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control caINnQb" xid="input3" data-bind="component:{ref:ref(&quot;aorganizer&quot;),name:'$model/UI2/system/components/justep/input/input'}" __cid="caINnQb"/> 
+          </div> 
+        </div> 
+      </li> 
+    </ul> 
+  </div>  
+  <a xmlns="" component="$model/UI2/system/components/justep/button/button" class="btn btn-default caINnQb" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{&quot;operation&quot;:&quot;baasData1.delete&quot;}" data-config="{&quot;label&quot;:&quot;删除&quot;}" __cid="caINnQb"> 
+    <i xid="i1" __cid="caINnQb" class="caINnQb"/>  
+    <span xid="span1" __cid="caINnQb" class="caINnQb">删除</span> 
+  </a>  
+  <a xmlns="" component="$model/UI2/system/components/justep/button/button" class="btn btn-default caINnQb" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{&quot;operation&quot;:&quot;baasData1.new&quot;}" data-config="{&quot;label&quot;:&quot;增加&quot;}" __cid="caINnQb"> 
+    <i xid="i2" __cid="caINnQb" class="caINnQb"/>  
+    <span xid="span2" __cid="caINnQb" class="caINnQb">增加</span> 
+  </a>  
+  <a xmlns="" component="$model/UI2/system/components/justep/button/button" class="btn btn-default caINnQb" xid="button3" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{&quot;operation&quot;:&quot;baasData1.save&quot;}" data-config="{&quot;label&quot;:&quot;保存&quot;}" __cid="caINnQb"> 
+    <i xid="i3" __cid="caINnQb" class="caINnQb"/>  
+    <span xid="span3" __cid="caINnQb" class="caINnQb">保存</span> 
+  </a> 
+</div>

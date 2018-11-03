@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cYfMjMr" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cYfMjMr" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/bootstrap/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cYfMjMr" class="cYfMjMr"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcaEjIFn-iosstatusbar cYfMjMr" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cYfMjMr"> 
+    <div class="x-panel-top cYfMjMr" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYfMjMr">
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cYfMjMr" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;骑行必备&quot;}" __cid="cYfMjMr"> 
+        <div class="x-titlebar-left cYfMjMr" xid="left1" __cid="cYfMjMr"/>  
+        <div class="x-titlebar-title cYfMjMr" xid="title1" __cid="cYfMjMr">骑行必备</div>  
+        <div class="x-titlebar-right  cYfMjMr" xid="right1" __cid="cYfMjMr">
+          <div class="empty cYfMjMr" __cid="cYfMjMr"/>
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-content cYfMjMr" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYfMjMr"> 
+      <div xid="div1" style="height:210px;" __cid="cYfMjMr" class="cYfMjMr">
+        <div component="$model/UI2/system/components/bootstrap/row/row" class="row cYfMjMr" xid="row6" data-bind="component:{name:'$model/UI2/system/components/bootstrap/row/row'}" __cid="cYfMjMr"> 
+          <div class="col col-xs-12 cYfMjMr" xid="col16" __cid="cYfMjMr"> 
+            <img src="$model/UI2/jdy/img/自行车1a.jpg" alt="" xid="image5" class="center-block cYfMjMr" style="width:100%;" height="130px" __cid="cYfMjMr"/>
+          </div> 
+        </div>  
+        <div component="$model/UI2/system/components/bootstrap/row/row" class="row cYfMjMr" xid="row4" data-bind="component:{name:'$model/UI2/system/components/bootstrap/row/row'}" __cid="cYfMjMr"> 
+          <div class="col col-xs-6 cYfMjMr" xid="col10" __cid="cYfMjMr"> 
+            <img src="$model/UI2/jdy/img/bike1.jpg" alt="" xid="image4" class="center-block cYfMjMr" style="width:100%;" height="80px" __cid="cYfMjMr"/>
+          </div>  
+          <div class="col col-xs-3 cYfMjMr" xid="col11" __cid="cYfMjMr"> 
+            <img src="$model/UI2/jdy/img/bike1.jpg" alt="" xid="image6" class="center-block cYfMjMr" style="width:100%;" height="80px" __cid="cYfMjMr"/>
+          </div>  
+          <div class="col col-xs-3 cYfMjMr" xid="col12" __cid="cYfMjMr"> 
+            <img src="$model/UI2/jdy/img/bike1.jpg" alt="" xid="image7" class="center-block cYfMjMr" style="width:100%;" height="80px" __cid="cYfMjMr"/>
+          </div> 
+        </div>
+      </div>  
+      <div xid="div5" style="background-color:#F5F5F5;" __cid="cYfMjMr" class="cYfMjMr">
+        <span xid="span7" __cid="cYfMjMr" class="cYfMjMr">欢迎来到斗云租赁</span>
+      </div>
+      <div component="$model/UI2/system/components/justep/panel/panel" class="panel panel-default x-card pc2Qr26v-iosstatusbar cYfMjMr" xid="panel7" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cYfMjMr"> 
+        <ul xid="ul1" __cid="cYfMjMr" class="cYfMjMr"> 
+          <li class="list-group-item cYfMjMr" xid="li1" bind-click="chazhao" __cid="cYfMjMr"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon pull-right cYfMjMr" xid="button12" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cYfMjMr"> 
+              <i xid="i18" class="icon-ios7-arrow-right text-muted cYfMjMr" __cid="cYfMjMr"/>  
+              <span xid="span17" __cid="cYfMjMr" class="cYfMjMr"/>
+            </a>  
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cYfMjMr" xid="button13" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;linear linear-sun&quot;}" __cid="cYfMjMr"> 
+              <i xid="i26" class="text-warning linear linear-sun cYfMjMr" __cid="cYfMjMr"/>  
+              <span xid="span18" __cid="cYfMjMr" class="cYfMjMr"/>
+            </a>  
+            <span xid="span16" style="font-weight:bold;" __cid="cYfMjMr" class="cYfMjMr">我要查找</span>
+          </li>  
+          <li class="list-group-item cYfMjMr" xid="li1" bind-click="bikeZulin" __cid="cYfMjMr"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon pull-right cYfMjMr" xid="button14" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cYfMjMr"> 
+              <i xid="i27" class="icon-ios7-arrow-right text-muted cYfMjMr" __cid="cYfMjMr"/>  
+              <span xid="span20" __cid="cYfMjMr" class="cYfMjMr"/>
+            </a>  
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cYfMjMr" xid="button15" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;linear linear-drop&quot;}" __cid="cYfMjMr"> 
+              <i xid="i28" class="linear linear-drop cYfMjMr" __cid="cYfMjMr"/>  
+              <span xid="span21" __cid="cYfMjMr" class="cYfMjMr"/>
+            </a>  
+            <span xid="span19" style="font-weight:bold;" __cid="cYfMjMr" class="cYfMjMr">单车租赁</span>
+          </li>  
+          <li class="list-group-item cYfMjMr" xid="li1" bind-click="zhuangbeiZulin" __cid="cYfMjMr"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon pull-right cYfMjMr" xid="button16" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cYfMjMr"> 
+              <i xid="i29" class="icon-ios7-arrow-right text-muted cYfMjMr" __cid="cYfMjMr"/>  
+              <span xid="span23" __cid="cYfMjMr" class="cYfMjMr"/>
+            </a>  
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cYfMjMr" xid="button17" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-briefcase-outline&quot;}" __cid="cYfMjMr"> 
+              <i xid="i30" class="icon-ios7-briefcase-outline text-danger cYfMjMr" __cid="cYfMjMr"/>  
+              <span xid="span24" __cid="cYfMjMr" class="cYfMjMr"/>
+            </a>  
+            <span xid="span22" style="font-weight:bold;" __cid="cYfMjMr" class="cYfMjMr">装备租赁</span>
+          </li> 
+        </ul>
+        <style __cid="cYfMjMr" class="cYfMjMr">.x-panel.pc2Qr26v-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pc2Qr26v-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pc2Qr26v-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pc2Qr26v-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc2Qr26v-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pc2Qr26v-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc2Qr26v-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc2Qr26v-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc2Qr26v-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+      </div>
+    </div>  
+    <style __cid="cYfMjMr" class="cYfMjMr">.x-panel.pcaEjIFn-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcaEjIFn-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcaEjIFn-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcaEjIFn-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcaEjIFn-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcaEjIFn-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcaEjIFn-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcaEjIFn-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcaEjIFn-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>
+</div>

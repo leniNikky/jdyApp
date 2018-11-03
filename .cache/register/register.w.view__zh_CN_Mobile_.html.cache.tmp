@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cqAJNBn" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cqAJNBn" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/input/password,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/controlGroup/controlGroup,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,">  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cqAJNBn" class="cqAJNBn"/>  
+  <span xmlns="" component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" style="top:7px;left:64px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" __cid="cqAJNBn" class="cqAJNBn"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cqAJNBn" __cid="cqAJNBn"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cqAJNBn" style="display:none;" __cid="cqAJNBn">  
+      <div class="x-dialog-title cqAJNBn" __cid="cqAJNBn"> 
+        <button class="close cqAJNBn" __cid="cqAJNBn"> 
+          <span __cid="cqAJNBn" class="cqAJNBn">×</span> 
+        </button>  
+        <div class="x-dialog-title-text cqAJNBn" __cid="cqAJNBn"/> 
+      </div>  
+      <div class="x-dialog-body cqAJNBn" __cid="cqAJNBn"/> 
+    </div> 
+  </span>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcEbEf6v-iosstatusbar cqAJNBn" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cqAJNBn"> 
+    <div class="x-panel-top cqAJNBn" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cqAJNBn"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cqAJNBn" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;斗云用户注册&quot;}" __cid="cqAJNBn"> 
+        <div class="x-titlebar-left cqAJNBn" xid="left1" __cid="cqAJNBn"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cqAJNBn" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cqAJNBn"> 
+            <i xid="i2" class="icon-chevron-left cqAJNBn" __cid="cqAJNBn"/>  
+            <span xid="span1" __cid="cqAJNBn" class="cqAJNBn"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cqAJNBn" xid="title1" __cid="cqAJNBn">斗云用户注册</div>  
+        <div class="x-titlebar-right  cqAJNBn" xid="right1" __cid="cqAJNBn"> 
+          <div class="empty cqAJNBn" __cid="cqAJNBn"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cqAJNBn" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cqAJNBn"> 
+      <div component="$model/UI2/system/components/justep/controlGroup/controlGroup" class="x-control-group cqAJNBn" xid="controlGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/controlGroup/controlGroup'}" data-config="{&quot;title&quot;:&quot;title&quot;}" __cid="cqAJNBn"> 
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cqAJNBn" xid="labelEdit7" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cqAJNBn"> 
+          <label class="x-label cqAJNBn" xid="label7" __cid="cqAJNBn">手机号</label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cqAJNBn" xid="userPhone" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入手机号&quot;}" __cid="cqAJNBn"/> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cqAJNBn" xid="labelEdit1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cqAJNBn"> 
+          <label class="x-label cqAJNBn" xid="label1" __cid="cqAJNBn">用户名</label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cqAJNBn" xid="userName" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入用户名&quot;}" __cid="cqAJNBn"/> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cqAJNBn" xid="labelEdit2" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cqAJNBn"> 
+          <label class="x-label cqAJNBn" xid="label4" __cid="cqAJNBn">密码</label>  
+          <input component="$model/UI2/system/components/justep/input/password" class="form-control x-edit cqAJNBn" xid="password1" type="password" data-bind="component:{name:'$model/UI2/system/components/justep/input/password'}" data-config="{&quot;placeHolder&quot;:&quot;请输入密码&quot;}" __cid="cqAJNBn"/> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cqAJNBn" xid="labelEdit3" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cqAJNBn"> 
+          <label class="x-label cqAJNBn" xid="label10" __cid="cqAJNBn"/>  
+          <input component="$model/UI2/system/components/justep/input/password" class="form-control x-edit cqAJNBn" xid="password2" type="password" data-bind="component:{name:'$model/UI2/system/components/justep/input/password'}" data-config="{&quot;placeHolder&quot;:&quot;请确认密码&quot;}" __cid="cqAJNBn"/> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cqAJNBn" xid="labelEdit6" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cqAJNBn"> 
+          <label class="x-label cqAJNBn" xid="label6" __cid="cqAJNBn">地址</label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cqAJNBn" xid="useraddress" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入地址&quot;}" __cid="cqAJNBn"/> 
+        </div>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-primary center-block cqAJNBn" xid="regBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:regBtnClick" data-config="{&quot;label&quot;:&quot;注册&quot;}" __cid="cqAJNBn"> 
+          <i xid="i1" __cid="cqAJNBn" class="cqAJNBn"/>  
+          <span xid="span2" __cid="cqAJNBn" class="cqAJNBn">注册</span> 
+        </a> 
+      </div> 
+    </div>  
+    <div class="x-panel-bottom cqAJNBn" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cqAJNBn"/>  
+    <style __cid="cqAJNBn" class="cqAJNBn">.x-panel.pcEbEf6v-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcEbEf6v-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcEbEf6v-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcEbEf6v-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcEbEf6v-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcEbEf6v-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcEbEf6v-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcEbEf6v-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcEbEf6v-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

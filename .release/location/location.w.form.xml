@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cfuQBny" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cfuQBny" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cfuQBny" class="cfuQBny"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcyMn2ua-iosstatusbar cfuQBny" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cfuQBny"> 
+    <div class="x-panel-top cfuQBny" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cfuQBny"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cfuQBny" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;记录骑行公里数&quot;}" __cid="cfuQBny"> 
+        <div class="x-titlebar-left cfuQBny" __cid="cfuQBny"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cfuQBny" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cfuQBny"> 
+            <i class="icon-chevron-left cfuQBny" __cid="cfuQBny"/>  
+            <span __cid="cfuQBny" class="cfuQBny"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cfuQBny" __cid="cfuQBny">记录骑行公里数</div>  
+        <div class="x-titlebar-right  cfuQBny" __cid="cfuQBny">
+          <div class="empty cfuQBny" __cid="cfuQBny"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cfuQBny" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cfuQBny">
+      <div xid="getAccDiv" class="list-row cfuQBny" style="margin:20px 20px 20px 20px;" __cid="cfuQBny"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default device-button-black cfuQBny" xid="getGeoBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:getGeoBtnClick" data-config="{&quot;disabled&quot;:true,&quot;label&quot;:&quot;开始骑行&quot;}" __cid="cfuQBny"> 
+          <i xid="i4" __cid="cfuQBny" class="cfuQBny"/>  
+          <span xid="span4" __cid="cfuQBny" class="cfuQBny">开始骑行</span>
+        </a> 
+      </div>  
+      <div xid="div1" class="list-row cfuQBny" style="margin-right:20px;margin-left:20px;" __cid="cfuQBny"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default device-button-black cfuQBny" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:get1GeoBtnClick" data-config="{&quot;disabled&quot;:true,&quot;label&quot;:&quot;结束骑行&quot;}" __cid="cfuQBny"> 
+          <i xid="i1" __cid="cfuQBny" class="cfuQBny"/>  
+          <span xid="span1" __cid="cfuQBny" class="cfuQBny">结束骑行</span>
+        </a> 
+      </div>
+    </div>  
+    <style __cid="cfuQBny" class="cfuQBny">.x-panel.pcyMn2ua-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcyMn2ua-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcyMn2ua-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcyMn2ua-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcyMn2ua-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcyMn2ua-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcyMn2ua-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcyMn2ua-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcyMn2ua-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cemiYNf" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cemiYNf" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/bootstrap/navbar/navbar,$model/UI2/system/components/justep/window/window,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cemiYNf" class="cemiYNf"/>  
+  <nav class="navbar navbar-default cemiYNf" component="$model/UI2/system/components/bootstrap/navbar/navbar" xid="navbar1" data-bind="component:{name:'$model/UI2/system/components/bootstrap/navbar/navbar'}" __cid="cemiYNf"> 
+    <div class="container-fluid cemiYNf" xid="div1" __cid="cemiYNf"> 
+      <div class="navbar-header cemiYNf" xid="div2" __cid="cemiYNf"> 
+        <button type="button" class="navbar-toggle collapsed cemiYNf" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" xid="button1" __cid="cemiYNf"> 
+          <span class="sr-only cemiYNf" xid="span1" __cid="cemiYNf">Toggle navigation</span>  
+          <span class="icon-bar cemiYNf" xid="span2" __cid="cemiYNf"/>  
+          <span class="icon-bar cemiYNf" xid="span3" __cid="cemiYNf"/>  
+          <span class="icon-bar cemiYNf" xid="span4" __cid="cemiYNf"/>
+        </button>  
+        <a class="navbar-brand cemiYNf" href="#" xid="a1" __cid="cemiYNf">Title</a>
+      </div>  
+      <div class="collapse navbar-collapse cemiYNf" xid="div3" __cid="cemiYNf"/>
+    </div> 
+  </nav>
+</div>

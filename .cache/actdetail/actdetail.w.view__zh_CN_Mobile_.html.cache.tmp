@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cf6v22a" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cf6v22a" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/controlGroup/controlGroup,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cf6v22a" class="cf6v22a"/>  
+  <span xmlns="" component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" style="top:20px;left:87px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" __cid="cf6v22a" class="cf6v22a"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cf6v22a" __cid="cf6v22a"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cf6v22a" style="display:none;" __cid="cf6v22a">  
+      <div class="x-dialog-title cf6v22a" __cid="cf6v22a"> 
+        <button class="close cf6v22a" __cid="cf6v22a"> 
+          <span __cid="cf6v22a" class="cf6v22a">×</span> 
+        </button>  
+        <div class="x-dialog-title-text cf6v22a" __cid="cf6v22a"/> 
+      </div>  
+      <div class="x-dialog-body cf6v22a" __cid="cf6v22a"/> 
+    </div> 
+  </span>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcVFJJRb-iosstatusbar cf6v22a" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cf6v22a"> 
+    <div class="x-panel-top cf6v22a" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cf6v22a"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cf6v22a" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;活动详情&quot;}" __cid="cf6v22a"> 
+        <div class="x-titlebar-left cf6v22a" xid="left1" __cid="cf6v22a"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cf6v22a" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:backBtnClick" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cf6v22a"> 
+            <i class="icon-chevron-left cf6v22a" xid="i2" __cid="cf6v22a"/>  
+            <span xid="span2" __cid="cf6v22a" class="cf6v22a"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cf6v22a" xid="title1" __cid="cf6v22a">活动详情</div>  
+        <div class="x-titlebar-right  cf6v22a" xid="right1" __cid="cf6v22a"> 
+          <div class="empty cf6v22a" __cid="cf6v22a"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cf6v22a" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cf6v22a"> 
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list cf6v22a" xid="list2" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;activityData&quot;}" __cid="cf6v22a"> 
+        <ul class="x-list-template hide cf6v22a" xid="listTemplateUl2" __cid="cf6v22a" data-bind="foreach:{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}"> 
+          <li xid="li2" __cid="cf6v22a" class="cf6v22a"> 
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row cf6v22a" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cf6v22a"> 
+              <div class="x-col cf6v22a" xid="col1" __cid="cf6v22a"> 
+                <img src="" alt="" xid="image1" style="width:100%;" __cid="cf6v22a" class="cf6v22a" data-bind="attr:{src:$model.activityData.val(&quot;aimg&quot;)}"/>  
+                <div component="$model/UI2/system/components/justep/controlGroup/controlGroup" class="x-control-group cf6v22a" xid="controlGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/controlGroup/controlGroup'}" data-config="{&quot;title&quot;:&quot;【活动流程】&quot;}" __cid="cf6v22a"> 
+                  <div class="x-control-group-title cf6v22a" xid="controlGroupTitle1" style="background-color:#FFFFFF;" __cid="cf6v22a"> 
+                    <span xid="span1" style="font-size:18px;" __cid="cf6v22a" class="cf6v22a" data-bind="text:$model.activityData.val(&quot;aname&quot;)"/>  
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cf6v22a" xid="output1" style="padding-left:15px;" data-bind="component:{ref:$model.activityData.ref(&quot;acontent&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cf6v22a"/> 
+                  </div> 
+                </div>  
+                <div component="$model/UI2/system/components/justep/controlGroup/controlGroup" class="x-control-group cf6v22a" xid="controlGroup2" data-bind="component:{name:'$model/UI2/system/components/justep/controlGroup/controlGroup'},event:{click:$model._callModelFn.bind($model, 'controlGroup2Click')}" data-config="{&quot;title&quot;:&quot;活动组织方&quot;}" __cid="cf6v22a"> 
+                  <div class="x-control-group-title cf6v22a" xid="controlGroupTitle2" style="background-color:#FFFFFF;" __cid="cf6v22a"> 
+                    <span xid="span6" style="font-size:18px;" __cid="cf6v22a" class="cf6v22a">活动组织方</span>  
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cf6v22a" xid="output4" style="padding-left:15px;" data-bind="component:{ref:$model.activityData.ref(&quot;aorganizer&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cf6v22a"/> 
+                  </div> 
+                </div>  
+                <div component="$model/UI2/system/components/justep/controlGroup/controlGroup" class="x-control-group cf6v22a" xid="controlGroup5" data-bind="component:{name:'$model/UI2/system/components/justep/controlGroup/controlGroup'}" data-config="{&quot;title&quot;:&quot;发布日期&quot;}" __cid="cf6v22a"> 
+                  <div class="x-control-group-title cf6v22a" xid="controlGroupTitle4" style="background-color:#FFFFFF;" __cid="cf6v22a"> 
+                    <span xid="span7" style="font-size:18px;" __cid="cf6v22a" class="cf6v22a">发布日期</span>  
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cf6v22a" xid="output5" style="padding-left:15px;" data-bind="component:{ref:$model.activityData.ref(&quot;adate&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cf6v22a"/> 
+                  </div> 
+                </div>  
+                <div component="$model/UI2/system/components/justep/controlGroup/controlGroup" class="x-control-group cf6v22a" xid="controlGroup3" style="margin-top:30px;background-color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/controlGroup/controlGroup'}" data-config="{&quot;title&quot;:&quot;【欢迎报名】&quot;}" __cid="cf6v22a"> 
+                  <div class="x-control-group-title cf6v22a" xid="controlGroupTitle3" __cid="cf6v22a"> 
+                    <span xid="span3" style="font-size:18px;" __cid="cf6v22a" class="cf6v22a">【欢迎报名】</span>  
+                    <div xid="div1" style="font-size:14px;margin-top:30px;margin-left:10px;" __cid="cf6v22a" class="cf6v22a">活动结束，还有神秘礼品相送哦！</div> 
+                  </div> 
+                </div> 
+              </div> 
+            </div> 
+          </li> 
+        </ul> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/controlGroup/controlGroup" class="x-control-group cf6v22a" xid="controlGroup4" style="margin-bottom: 20px;" data-bind="component:{name:'$model/UI2/system/components/justep/controlGroup/controlGroup'}" __cid="cf6v22a"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-success center-block cf6v22a" xid="enrollBtn" style="margin-top:20px;font-weight:bold;font-size:16px;background-color:#0080C0;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:enrollBtnClick" __cid="cf6v22a"> 
+          <i xid="i1" __cid="cf6v22a" class="cf6v22a"/>  
+          <span xid="span5" __cid="cf6v22a" class="cf6v22a">立即报名</span> 
+        </a> 
+      </div> 
+    </div>  
+    <style __cid="cf6v22a" class="cf6v22a">.x-panel.pcVFJJRb-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcVFJJRb-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcVFJJRb-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcVFJJRb-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcVFJJRb-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcVFJJRb-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcVFJJRb-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcVFJJRb-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcVFJJRb-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<div component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cZjeYny" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cZjeYny" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+  <style>null</style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="cZjeYny" class="cZjeYny"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcNzQZRb-iosstatusbar cZjeYny" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cZjeYny"> 
+    <div class="x-panel-top cZjeYny" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cZjeYny"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cZjeYny" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&#34;title&#34;:&#34;我报名的活动&#34;}" __cid="cZjeYny"> 
+        <div class="x-titlebar-left cZjeYny" __cid="cZjeYny"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cZjeYny" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&#34;icon&#34;:&#34;icon-chevron-left&#34;,&#34;label&#34;:&#34;&#34;}" __cid="cZjeYny"> 
+            <i class="icon-chevron-left cZjeYny" __cid="cZjeYny"></i>  
+            <span __cid="cZjeYny" class="cZjeYny"></span> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cZjeYny" __cid="cZjeYny">我报名的活动</div>  
+        <div class="x-titlebar-right  cZjeYny" __cid="cZjeYny">
+          <div class="empty cZjeYny" __cid="cZjeYny"></div>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cZjeYny" xid="content1" _xid="C7D0352B48A00001158D1323F5B0FA50" style="bottom: 0px; background-size: cover; background-image: url(http://localhost:45654/x5/UI2/v_/jdy1/none);" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cZjeYny">
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list cZjeYny" xid="list3" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&#34;data&#34;:&#34;myactdata&#34;}" __cid="cZjeYny"> 
+        <ul class="x-list-template hide cZjeYny" xid="listTemplateUl3" __cid="cZjeYny" data-bind="foreach:{data:$model.foreach_list3($element),afterRender:$model.foreach_afterRender_list3.bind($model,$element)}"> 
+          <li xid="li3" __cid="cZjeYny" class="cZjeYny"> 
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row cZjeYny" xid="row4" style="border-bottom-width:1px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cZjeYny"> 
+              <div class="x-col x-col-fixed cZjeYny" xid="col3" style="width:auto;" __cid="cZjeYny"> 
+                <img src="" alt="" xid="image2" style="height:90px;width:82px;" __cid="cZjeYny" class="cZjeYny" data-bind="attr:{src:$model.myactdata.val(&#34;aimg&#34;)}">
+              </div>  
+              <div class="x-col cZjeYny" xid="col4" __cid="cZjeYny"> 
+                <div component="$model/UI2/system/components/justep/output/output" class="x-output cZjeYny" xid="output6" style="font-size:16px;font-weight:bold;" data-bind="component:{ref:$model.myactdata.ref(&#34;aname&#34;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cZjeYny"></div>  
+                <div component="$model/UI2/system/components/justep/output/output" class="x-output cZjeYny" xid="output5" style="overflow:hidden;height:30px;width:100%;" data-bind="component:{ref:$model.myactdata.ref(&#34;acontent&#34;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cZjeYny"></div>  
+                <div component="$model/UI2/system/components/justep/output/output" class="x-output cZjeYny" xid="output1" style="flaot:left" data-bind="component:{ref:$model.myactdata.ref(&#34;adate&#34;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cZjeYny"></div>
+              </div> 
+            </div> 
+          </li> 
+        </ul> 
+      </div>
+    </div>  
+    <style __cid="cZjeYny" class="cZjeYny">.x-panel.pcNzQZRb-iosstatusbar >.x-panel-top {height: 48px;}.x-panel.pcNzQZRb-iosstatusbar >.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcNzQZRb-iosstatusbar >.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcNzQZRb-iosstatusbar >.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcNzQZRb-iosstatusbar >.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcNzQZRb-iosstatusbar >.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcNzQZRb-iosstatusbar >.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcNzQZRb-iosstatusbar >.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcNzQZRb-iosstatusbar >.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

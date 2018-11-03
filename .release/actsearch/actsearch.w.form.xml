@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window  x-scroll-view cjaMvim" component="$model/UI2/system/components/justep/window/window" design="device:m;" style="width: 100%; height: 100%; background-image: url(http://localhost:44145/x5/UI2/v_/jdy1/none); background-size: cover;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cjaMvim" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cjaMvim" class="cjaMvim"/>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" style="top:17px;left:65px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/jdy1/actIntro.w&quot;}" __cid="cjaMvim" class="cjaMvim">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cjaMvim" __cid="cjaMvim"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cjaMvim" style="display:none;" __cid="cjaMvim">
+      <xhtml:div class="x-dialog-title cjaMvim" __cid="cjaMvim">
+        <xhtml:button class="close cjaMvim" __cid="cjaMvim">
+          <xhtml:span __cid="cjaMvim" class="cjaMvim">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cjaMvim" __cid="cjaMvim"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cjaMvim" __cid="cjaMvim"/>
+    </xhtml:div>
+  </span>
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcqUnqE3-iosstatusbar cjaMvim" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cjaMvim"> 
+    <div class="x-panel-top cjaMvim" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cjaMvim"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar tb-index cjaMvim" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cjaMvim"> 
+        <div class="x-titlebar-left cjaMvim" xid="div1" __cid="cjaMvim"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cjaMvim" xid="button6" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;搜索&quot;}" __cid="cjaMvim"> 
+            <i xid="i6" class="icon-chevron-left cjaMvim" __cid="cjaMvim"/>  
+            <span xid="span6" __cid="cjaMvim" class="cjaMvim">搜索</span>
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cjaMvim" xid="div2" __cid="cjaMvim"> 
+          <div class="form-group has-feedback cjaMvim" xid="formGroup1" __cid="cjaMvim"> 
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control input-sm text-white cjaMvim" xid="keyInput" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cjaMvim"/> 
+          </div> 
+        </div>  
+        <div class="x-titlebar-right  cjaMvim" xid="div3" __cid="cjaMvim">
+          <div class="empty cjaMvim" __cid="cjaMvim"/>
+          <a component="$model/UI2/system/components/justep/button/button" class="btn x-yellow btn-only-label more cjaMvim" xid="searchBtn" style="background-color:#0080C0;border-style:inset inset inset inset;border-width:1px 1px 1px 1px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:searchBtnClick" data-config="{&quot;label&quot;:&quot;搜索&quot;}" __cid="cjaMvim"> 
+            <i xid="i11" __cid="cjaMvim" class="cjaMvim"/>  
+            <span xid="span10" __cid="cjaMvim" class="cjaMvim">搜索</span>
+          </a>
+        </div> 
+      </div> 
+    </div>
+    <div class="x-panel-content cjaMvim" xid="content1" style="position:absolute;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cjaMvim">
+      <div class="x-scroll cjaMvim" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cjaMvim"> 
+        <div class="x-content-center x-pull-down container cjaMvim" xid="div4" __cid="cjaMvim"> 
+          <i class="x-pull-down-img glyphicon x-icon-pull-down cjaMvim" xid="i1" __cid="cjaMvim"/>  
+          <span class="x-pull-down-label cjaMvim" xid="span1" __cid="cjaMvim">下拉刷新...</span>
+        </div>  
+        <div class="x-scroll-content cjaMvim" xid="div5" __cid="cjaMvim"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list cjaMvim" xid="list3" bind-click="list3Click" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;activityData&quot;}" __cid="cjaMvim"> 
+            <ul class="x-list-template hide cjaMvim" xid="listTemplateUl3" bind-foreach="{data:$model.foreach_list3($element),afterRender:$model.foreach_afterRender_list3.bind($model,$element)}" __cid="cjaMvim"> 
+              <li xid="li3" __cid="cjaMvim" class="cjaMvim"> 
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cjaMvim" xid="row4" style="border-bottom-width:1px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cjaMvim"> 
+                  <div class="x-col x-col-fixed cjaMvim" xid="col2" style="width:auto;" __cid="cjaMvim"> 
+                    <img src="" alt="" xid="image2" bind-attr-src=" $model.activityData.val(&quot;aimg&quot;)" style="height:90px;width:82px;" __cid="cjaMvim" class="cjaMvim"/>
+                  </div>  
+                  <div class="x-col cjaMvim" xid="col4" __cid="cjaMvim"> 
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cjaMvim" xid="output6" style="font-size:16px;font-weight:bold;" data-bind="component:{ref:$model.activityData.ref(&quot;aname&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cjaMvim"/>  
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cjaMvim" xid="output5" style="height:30px;width:100%;overflow:hidden;" data-bind="component:{ref:$model.activityData.ref(&quot;acontent&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cjaMvim"/>  
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cjaMvim" xid="output1" style="flaot:left" data-bind="component:{ref:$model.activityData.ref(&quot;adate&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cjaMvim"/>
+                  </div> 
+                </div> 
+              </li> 
+            </ul> 
+          </div> 
+        </div>  
+        <div class="x-content-center x-pull-up cjaMvim" xid="div6" __cid="cjaMvim"> 
+          <span class="x-pull-up-label cjaMvim" xid="span2" __cid="cjaMvim">加载更多...</span>
+        </div> 
+      </div>
+    </div>  
+    <style __cid="cjaMvim" class="cjaMvim">.x-panel.pcqUnqE3-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcqUnqE3-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcqUnqE3-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcqUnqE3-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcqUnqE3-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcqUnqE3-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcqUnqE3-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcqUnqE3-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcqUnqE3-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>
